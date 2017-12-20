@@ -12,6 +12,7 @@
 		05A16E811FEAE42E004C1F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A16E801FEAE42E004C1F69 /* Assets.xcassets */; };
 		05A16E841FEAE42E004C1F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A16E821FEAE42E004C1F69 /* LaunchScreen.storyboard */; };
 		05F7DC8B1FEAE92800971CC3 /* TWNavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC8A1FEAE92800971CC3 /* TWNavigationHelper.swift */; };
+		05F7DC8E1FEAED9E00971CC3 /* UIColor+TWColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC8D1FEAED9E00971CC3 /* UIColor+TWColors.swift */; };
 		76DA9D9BE5EB83B83C3A7EED /* Pods_Tweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6689BFDB902F880867DC0545 /* Pods_Tweet.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		05A16E831FEAE42E004C1F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05A16E851FEAE42E004C1F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05F7DC8A1FEAE92800971CC3 /* TWNavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWNavigationHelper.swift; sourceTree = "<group>"; };
+		05F7DC8D1FEAED9E00971CC3 /* UIColor+TWColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+TWColors.swift"; sourceTree = "<group>"; };
 		21C30954BFACC96C1CC8F3BD /* Pods-Tweet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tweet/Pods-Tweet.debug.xcconfig"; sourceTree = "<group>"; };
 		44814E040A28CF50293A2DA1 /* Pods-Tweet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tweet/Pods-Tweet.release.xcconfig"; sourceTree = "<group>"; };
 		6689BFDB902F880867DC0545 /* Pods_Tweet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +105,7 @@
 		05A16E8E1FEAE76E004C1F69 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				05F7DC8C1FEAED8500971CC3 /* UIColor */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -165,6 +168,14 @@
 				05F7DC8A1FEAE92800971CC3 /* TWNavigationHelper.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		05F7DC8C1FEAED8500971CC3 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				05F7DC8D1FEAED9E00971CC3 /* UIColor+TWColors.swift */,
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 		5EE0C686ED88090E9B3B5C12 /* Frameworks */ = {
@@ -308,6 +319,7 @@
 			files = (
 				05A16E7C1FEAE42E004C1F69 /* LoginViewController.swift in Sources */,
 				05F7DC8B1FEAE92800971CC3 /* TWNavigationHelper.swift in Sources */,
+				05F7DC8E1FEAED9E00971CC3 /* UIColor+TWColors.swift in Sources */,
 				05A16E7A1FEAE42E004C1F69 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
