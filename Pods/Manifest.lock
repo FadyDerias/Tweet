@@ -1,15 +1,21 @@
 PODS:
   - Networking (4.1.1)
   - SVProgressHUD (2.2.2)
+  - TwitterCore (3.0.2)
+  - TwitterKit (3.2.1):
+    - TwitterCore (>= 3.0.2)
 
 DEPENDENCIES:
   - Networking (~> 4)
   - SVProgressHUD
+  - TwitterKit
 
 SPEC CHECKSUMS:
   Networking: ffde5754883907f90f9f751e183eba4a75dc4b89
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  TwitterCore: e0420b01e02e7d20e94690e37f43e75de219ab8d
+  TwitterKit: 205ac89824bbfe9e85a16c420d30bb7bcbedac45
 
-PODFILE CHECKSUM: 2d0e3d0b8815e22c90976d3f85c0f46d055eb51c
+PODFILE CHECKSUM: 7b0242d4f57d0020e97f9037778c59b94ee3b07b
 
 COCOAPODS: 1.2.1

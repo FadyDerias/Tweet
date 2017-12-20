@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0512A588B963E8B3AA29DB5EE27ADAB0 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A92F29B2392AAD934762F89B62CE32 /* SVIndefiniteAnimatedView.m */; };
-		206F3EF63B50089FDE338C89F56AD8D9 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA0D75FAAFF93A78C0AF16B8C66A9A /* SVProgressHUD-dummy.m */; };
-		2D6EFAE1A0C6468047322BB5BFFA0445 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0292898A557B65529018BF9AD23424BF /* SVProgressHUD.bundle */; };
-		33C4080A81B92B3BEB3F71302E8A797D /* Networking+HTTPRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475D2285CAC1C8C6E123F1C6C9A756 /* Networking+HTTPRequests.swift */; };
-		33C52792A2298E8B2F353A23CC50A2D5 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D02B078F9DC32983670F2A69401342 /* Networking.swift */; };
-		3687C7744ED77E8EF2041D4E145CD119 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA0A84F5D311F943841FDA8CE3B09E /* SVRadialGradientLayer.m */; };
-		3789857C1FC28496875994B1728DC1A9 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99239DD9179D1CC4228F24C31781007C /* JSON.swift */; };
-		39B00CAB7BE7B609728823E4C0C23910 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F6975747A0D10845CD5C4749505AAE3D /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BDB54E305439294615AA1C31047D361 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F3917145E24BFF0E355C4EE2F3A86B /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C4C994ADD4E1BF5A790EA14C1D305FC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AD73D27AD52EBDC94B540E4C0E15D5 /* Helpers.swift */; };
+		0512A588B963E8B3AA29DB5EE27ADAB0 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A069636E618C99621E0F2B7DEC27FFB /* SVIndefiniteAnimatedView.m */; };
+		206F3EF63B50089FDE338C89F56AD8D9 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E48EA21461301D69173BF3568EDFEB /* SVProgressHUD-dummy.m */; };
+		2D6EFAE1A0C6468047322BB5BFFA0445 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DA579213B7A9316B4468E277E02060E /* SVProgressHUD.bundle */; };
+		33C4080A81B92B3BEB3F71302E8A797D /* Networking+HTTPRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6F582048ACDB3970992DD37780E596 /* Networking+HTTPRequests.swift */; };
+		33C52792A2298E8B2F353A23CC50A2D5 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41DB0AEB19221701BF155E3F1C8E0DE /* Networking.swift */; };
+		3687C7744ED77E8EF2041D4E145CD119 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F18F212BD07926F98A043C9ED877785D /* SVRadialGradientLayer.m */; };
+		3789857C1FC28496875994B1728DC1A9 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B494F0F0F899FD895ED3827599FA692D /* JSON.swift */; };
+		39B00CAB7BE7B609728823E4C0C23910 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C4D7A81556FF1F0FFFD02330145431 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BDB54E305439294615AA1C31047D361 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D96DFAFE2EE8D8BF8D353421DE6D5933 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4C994ADD4E1BF5A790EA14C1D305FC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F5CF52D04A86C25AB9107013B97FD8 /* Helpers.swift */; };
 		5706B2A95189D75738E0044F371104E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
-		635FB7F1B680D91E46166D5817AB2896 /* Networking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D67C19CCFBFE6229255DB8E38F471B30 /* Networking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		635FB7F1B680D91E46166D5817AB2896 /* Networking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA6AE2FCA5AE9BA8FEC74122ED8F6AB /* Networking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64F8F1F6720326164DC54377A82F9221 /* Pods-Tweet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9DEA37B6020E8761DABFD561B1DDCA /* Pods-Tweet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A1C223D8C278F98AD3C5411B9ECC2F5 /* NetworkActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F863364039FD93FA1FC9924E01DBB0 /* NetworkActivityIndicator.swift */; };
-		8373997F874829656C09F759F3A456BB /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5DB1484E59634765FE5AA093FB6068 /* Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87FEECF0A98E961352DC34A4AA136DA8 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DB3263A573D197857336D58D4B35D4 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		941FD6B79006EC006B82496321BF268A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FE660AD3209D275940C30391657CC9A2 /* SVProgressHUD.m */; };
-		A7B4741D6AE5CEC09D337152F3200B12 /* Networking+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FB6A61FC8CE7353F9890082EF6BB83 /* Networking+Private.swift */; };
-		A9CAC55E3663773DD680C6DA0B8E86E1 /* Networking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6362DA2E41F16DB5314C3DE94759DF63 /* Networking-dummy.m */; };
+		7A1C223D8C278F98AD3C5411B9ECC2F5 /* NetworkActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC6BD8FF3EFF7016ADBC168D78E5AEC /* NetworkActivityIndicator.swift */; };
+		8373997F874829656C09F759F3A456BB /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 573F0C393554993E3350F099579F97A1 /* Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87FEECF0A98E961352DC34A4AA136DA8 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D415997E166C06E6051787680AEA5CD /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941FD6B79006EC006B82496321BF268A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 709AAF710243FFC2D0465E1F0D6C5562 /* SVProgressHUD.m */; };
+		A7B4741D6AE5CEC09D337152F3200B12 /* Networking+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E95FBC085223B8A23048D39638D8C1 /* Networking+Private.swift */; };
+		A9CAC55E3663773DD680C6DA0B8E86E1 /* Networking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255780595206D5C40E463892AC3FDFF /* Networking-dummy.m */; };
 		AC06D39CAB0CB93A6B1ECC5AC1CB3D9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		B09AB076ABF12D1A5FDD627BC96315EE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA25C81F18576A367D8A25102047C9 /* Result.swift */; };
-		B2CC3F5F7BACB78870C678A35C7A8954 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AC9E30F60778864903807181A08D0A /* Response.swift */; };
-		B3AA07EB2E600CC75173DC35335B478A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80F91B9B29CB73A83B5C8A9BFCE04A /* Image.swift */; };
-		B5C8C92B05A1C6A6E25DEC8854E1AE03 /* TestCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDCB7B49438477F0FF7A15622EBC01 /* TestCheck.swift */; };
+		B09AB076ABF12D1A5FDD627BC96315EE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DBFCC2F17792EEE5FDD1ACD85524A3 /* Result.swift */; };
+		B2CC3F5F7BACB78870C678A35C7A8954 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6C47ED305029CFB26FCBEF7EC6D60F /* Response.swift */; };
+		B3AA07EB2E600CC75173DC35335B478A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A984C2EB61CBE2EAAE0A17719A159377 /* Image.swift */; };
+		B5C8C92B05A1C6A6E25DEC8854E1AE03 /* TestCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850BAF670472DA2A8EA9FA80E4C815FD /* TestCheck.swift */; };
 		D814017CAB4440AAB9F61FB7204DF6B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		DB1F34509EC61340D23B6BB9995C5E8E /* FormDataPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF76A7A2CE7E5AAF5E14F2E2051CB45 /* FormDataPart.swift */; };
-		DEF4A7B31822C70251A2255B70F77882 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C18454CFCE448EF3DD37B48B4DDB41FB /* SVProgressAnimatedView.m */; };
+		DB1F34509EC61340D23B6BB9995C5E8E /* FormDataPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE85265C434942175CB47742B18BB31 /* FormDataPart.swift */; };
+		DEF4A7B31822C70251A2255B70F77882 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E00C90DDE793AA2CE7AFBF1B58121E8 /* SVProgressAnimatedView.m */; };
 		E2678EF42128409A5FF7978918B59BE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
-		F418B3DA3C886C4B23F001B5F9AD0B93 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DAC71DD16FF2F4B2B52E9AC3BC252A /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F418B3DA3C886C4B23F001B5F9AD0B93 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8258ED88F2D496905583A2097AB1BF /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5A6B5D3B56E664FEE4788BB3383C8B4 /* Pods-Tweet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E23A57F138A3C96BAEF6C3E5FCD1D7A /* Pods-Tweet-dummy.m */; };
-		F649FF27769D38D7A12C1DC1A65923A2 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 18ACFFA3F47BA3CA072BDE669211733B /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F649FF27769D38D7A12C1DC1A65923A2 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 311ABF21BC3AE532FE507ECF41479B79 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,54 +59,58 @@
 
 /* Begin PBXFileReference section */
 		00F60AF0384B852A5DE6EB2CB69A9DDF /* Pods-Tweet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tweet.debug.xcconfig"; sourceTree = "<group>"; };
-		0292898A557B65529018BF9AD23424BF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		02FFC8B1F6DE5422B04EE22D04F26D96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B2253215E7AC51616AFCE0B1EBECD9C /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18ACFFA3F47BA3CA072BDE669211733B /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		19DB3263A573D197857336D58D4B35D4 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		1B80F91B9B29CB73A83B5C8A9BFCE04A /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		1A069636E618C99621E0F2B7DEC27FFB /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		1C4BC8CAA29047A5949706A0E3775991 /* Networking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Networking.xcconfig; sourceTree = "<group>"; };
+		1C7D5D358B257F311454CDB4E3C9D8D8 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
 		1C81C62FCD27C620F8C2F0344650E684 /* Pods-Tweet-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tweet-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1ECA25C81F18576A367D8A25102047C9 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
-		1EEA0A84F5D311F943841FDA8CE3B09E /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		22A92F29B2392AAD934762F89B62CE32 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		236F566E64C7DDBC2C80B8EBB78241F9 /* Networking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Networking.modulemap; sourceTree = "<group>"; };
+		1CA6AE2FCA5AE9BA8FEC74122ED8F6AB /* Networking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Networking-umbrella.h"; sourceTree = "<group>"; };
+		1DA579213B7A9316B4468E277E02060E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		2255780595206D5C40E463892AC3FDFF /* Networking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Networking-dummy.m"; sourceTree = "<group>"; };
+		26E95FBC085223B8A23048D39638D8C1 /* Networking+Private.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+Private.swift"; path = "Sources/Networking+Private.swift"; sourceTree = "<group>"; };
+		2BE9B975DD3989BAC4E556A599CB1156 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		311ABF21BC3AE532FE507ECF41479B79 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		3D415997E166C06E6051787680AEA5CD /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		4020E22B13BF87B942352FBC761C7C78 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
 		40236398CA0D7A461574532280346A18 /* Pods-Tweet-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tweet-resources.sh"; sourceTree = "<group>"; };
-		54AD73D27AD52EBDC94B540E4C0E15D5 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/Helpers.swift; sourceTree = "<group>"; };
+		42E48EA21461301D69173BF3568EDFEB /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		4E00C90DDE793AA2CE7AFBF1B58121E8 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		55721046477D942976DBC484C22E2F04 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		57CDCB7B49438477F0FF7A15622EBC01 /* TestCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestCheck.swift; path = Sources/TestCheck.swift; sourceTree = "<group>"; };
-		5BF76A7A2CE7E5AAF5E14F2E2051CB45 /* FormDataPart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDataPart.swift; path = Sources/FormDataPart.swift; sourceTree = "<group>"; };
-		62F863364039FD93FA1FC9924E01DBB0 /* NetworkActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityIndicator.swift; path = Sources/NetworkActivityIndicator.swift; sourceTree = "<group>"; };
-		6362DA2E41F16DB5314C3DE94759DF63 /* Networking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Networking-dummy.m"; sourceTree = "<group>"; };
-		74458A748078D5CE0C8D4A58056656EC /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
-		78DAC71DD16FF2F4B2B52E9AC3BC252A /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		7CE13DC5431DD169426379DA3F5B6B5E /* Networking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Networking-prefix.pch"; sourceTree = "<group>"; };
+		573F0C393554993E3350F099579F97A1 /* Networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Networking.h; path = Sources/Networking.h; sourceTree = "<group>"; };
+		57560631BAF51209BF4757C043DFB867 /* Networking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Networking-prefix.pch"; sourceTree = "<group>"; };
+		5DE85265C434942175CB47742B18BB31 /* FormDataPart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDataPart.swift; path = Sources/FormDataPart.swift; sourceTree = "<group>"; };
+		632D2AC2A34691A446F13A80D83A63AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64DBFCC2F17792EEE5FDD1ACD85524A3 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
+		65C4D7A81556FF1F0FFFD02330145431 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		709AAF710243FFC2D0465E1F0D6C5562 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		7E23A57F138A3C96BAEF6C3E5FCD1D7A /* Pods-Tweet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tweet-dummy.m"; sourceTree = "<group>"; };
-		7E767A35DD4DBB3716F8FDBEA9492BD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81AC9E30F60778864903807181A08D0A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Sources/Response.swift; sourceTree = "<group>"; };
+		850BAF670472DA2A8EA9FA80E4C815FD /* TestCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestCheck.swift; path = Sources/TestCheck.swift; sourceTree = "<group>"; };
+		88F5CF52D04A86C25AB9107013B97FD8 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/Helpers.swift; sourceTree = "<group>"; };
+		8920A260906D912619FB0BEACB1DDFEA /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		89994203719FC768C408BC0545179061 /* Pods-Tweet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tweet.modulemap"; sourceTree = "<group>"; };
+		8AC6BD8FF3EFF7016ADBC168D78E5AEC /* NetworkActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityIndicator.swift; path = Sources/NetworkActivityIndicator.swift; sourceTree = "<group>"; };
+		8E09F7FB126587A54EC6629F430011CB /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		979A4FB7181798B77CA51742E42D292D /* Pods_Tweet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98FB6A61FC8CE7353F9890082EF6BB83 /* Networking+Private.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+Private.swift"; path = "Sources/Networking+Private.swift"; sourceTree = "<group>"; };
-		99239DD9179D1CC4228F24C31781007C /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
-		A8BE125CD3B3BB41A61DBACE18641DA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD475D2285CAC1C8C6E123F1C6C9A756 /* Networking+HTTPRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+HTTPRequests.swift"; path = "Sources/Networking+HTTPRequests.swift"; sourceTree = "<group>"; };
+		A6FB760AFC764BD5D6F8A7E5BC6F403B /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		A780F31607F66E594C3BA5DD16E8E324 /* Networking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Networking.modulemap; sourceTree = "<group>"; };
+		A984C2EB61CBE2EAAE0A17719A159377 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		B494F0F0F899FD895ED3827599FA692D /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
+		BC6F582048ACDB3970992DD37780E596 /* Networking+HTTPRequests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking+HTTPRequests.swift"; path = "Sources/Networking+HTTPRequests.swift"; sourceTree = "<group>"; };
+		BD6C47ED305029CFB26FCBEF7EC6D60F /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Sources/Response.swift; sourceTree = "<group>"; };
 		BE72C742C3405616CD961B7AC3B0D105 /* Pods-Tweet-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tweet-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE8258ED88F2D496905583A2097AB1BF /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		BFB379AA02EB22275849F19213E32FBB /* Pods-Tweet-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tweet-frameworks.sh"; sourceTree = "<group>"; };
-		C18454CFCE448EF3DD37B48B4DDB41FB /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		C3D82D45370781589AABD390EBB739FB /* Networking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Networking.xcconfig; sourceTree = "<group>"; };
-		C7D02B078F9DC32983670F2A69401342 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Sources/Networking.swift; sourceTree = "<group>"; };
-		CA74299A3E9ABDB447A791E69F5DD2B9 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		CEBA0D75FAAFF93A78C0AF16B8C66A9A /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		D0F3917145E24BFF0E355C4EE2F3A86B /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		D67C19CCFBFE6229255DB8E38F471B30 /* Networking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Networking-umbrella.h"; sourceTree = "<group>"; };
+		C41DB0AEB19221701BF155E3F1C8E0DE /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Sources/Networking.swift; sourceTree = "<group>"; };
+		D96DFAFE2EE8D8BF8D353421DE6D5933 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		DA32171DEDD5A8292BF5B4FA49E79477 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6802C6E4EE942AA7EED56A700652090 /* Pods-Tweet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tweet.release.xcconfig"; sourceTree = "<group>"; };
 		ED9DEA37B6020E8761DABFD561B1DDCA /* Pods-Tweet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tweet-umbrella.h"; sourceTree = "<group>"; };
-		F6975747A0D10845CD5C4749505AAE3D /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		F18F212BD07926F98A043C9ED877785D /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		F4EE6AE10CCC2EBF16F392D2445789D5 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		FB32B09239E3C479CF23EAC674EC4A27 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		FE5DB1484E59634765FE5AA093FB6068 /* Networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Networking.h; path = Sources/Networking.h; sourceTree = "<group>"; };
-		FE660AD3209D275940C30391657CC9A2 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,12 +142,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		007480ED91F95F88438A2A898BB16C3A /* Resources */ = {
+		0A60551DF3002CD52751B91CD27999AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0292898A557B65529018BF9AD23424BF /* SVProgressHUD.bundle */,
+				4020E22B13BF87B942352FBC761C7C78 /* TwitterKit.framework */,
 			);
-			name = Resources;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1155909386B45E7F0B673EBEC2F30296 /* Targets Support Files */ = {
@@ -154,27 +158,72 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3937FE0FF49718A3F281B824A795B16B /* Pods */ = {
+		118904A870AA43EE6FB7D352B3D8AEFA /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				D9C567788B56354FEDA8069791D7CA9F /* Networking */,
-				E6FBCEFD49848D9E8866B076E3FA067C /* SVProgressHUD */,
+				5DE85265C434942175CB47742B18BB31 /* FormDataPart.swift */,
+				88F5CF52D04A86C25AB9107013B97FD8 /* Helpers.swift */,
+				A984C2EB61CBE2EAAE0A17719A159377 /* Image.swift */,
+				B494F0F0F899FD895ED3827599FA692D /* JSON.swift */,
+				8AC6BD8FF3EFF7016ADBC168D78E5AEC /* NetworkActivityIndicator.swift */,
+				573F0C393554993E3350F099579F97A1 /* Networking.h */,
+				C41DB0AEB19221701BF155E3F1C8E0DE /* Networking.swift */,
+				BC6F582048ACDB3970992DD37780E596 /* Networking+HTTPRequests.swift */,
+				26E95FBC085223B8A23048D39638D8C1 /* Networking+Private.swift */,
+				BD6C47ED305029CFB26FCBEF7EC6D60F /* Response.swift */,
+				64DBFCC2F17792EEE5FDD1ACD85524A3 /* Result.swift */,
+				850BAF670472DA2A8EA9FA80E4C815FD /* TestCheck.swift */,
+				1E6D2D50E1EE5157FBA4167AC2E8EEA7 /* Support Files */,
 			);
-			name = Pods;
+			path = Networking;
 			sourceTree = "<group>";
 		};
-		3C2EAD357B8EE9C342DDAD15C0F6834E /* Support Files */ = {
+		1E6D2D50E1EE5157FBA4167AC2E8EEA7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A8BE125CD3B3BB41A61DBACE18641DA4 /* Info.plist */,
-				236F566E64C7DDBC2C80B8EBB78241F9 /* Networking.modulemap */,
-				C3D82D45370781589AABD390EBB739FB /* Networking.xcconfig */,
-				6362DA2E41F16DB5314C3DE94759DF63 /* Networking-dummy.m */,
-				7CE13DC5431DD169426379DA3F5B6B5E /* Networking-prefix.pch */,
-				D67C19CCFBFE6229255DB8E38F471B30 /* Networking-umbrella.h */,
+				02FFC8B1F6DE5422B04EE22D04F26D96 /* Info.plist */,
+				A780F31607F66E594C3BA5DD16E8E324 /* Networking.modulemap */,
+				1C4BC8CAA29047A5949706A0E3775991 /* Networking.xcconfig */,
+				2255780595206D5C40E463892AC3FDFF /* Networking-dummy.m */,
+				57560631BAF51209BF4757C043DFB867 /* Networking-prefix.pch */,
+				1CA6AE2FCA5AE9BA8FEC74122ED8F6AB /* Networking-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Networking";
+			sourceTree = "<group>";
+		};
+		397F7461841F934C39C6875125E00FBA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E09F7FB126587A54EC6629F430011CB /* TwitterKitResources.bundle */,
+				2BE9B975DD3989BAC4E556A599CB1156 /* TwitterShareExtensionUIResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3F1A4718ADAA9A5189A526CAE39DC77E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3D415997E166C06E6051787680AEA5CD /* SVIndefiniteAnimatedView.h */,
+				1A069636E618C99621E0F2B7DEC27FFB /* SVIndefiniteAnimatedView.m */,
+				65C4D7A81556FF1F0FFFD02330145431 /* SVProgressAnimatedView.h */,
+				4E00C90DDE793AA2CE7AFBF1B58121E8 /* SVProgressAnimatedView.m */,
+				311ABF21BC3AE532FE507ECF41479B79 /* SVProgressHUD.h */,
+				709AAF710243FFC2D0465E1F0D6C5562 /* SVProgressHUD.m */,
+				BE8258ED88F2D496905583A2097AB1BF /* SVRadialGradientLayer.h */,
+				F18F212BD07926F98A043C9ED877785D /* SVRadialGradientLayer.m */,
+				743F6D8AD5B52773D2B331861CF1E420 /* Resources */,
+				56AFA1FA7BD5F652106D21A3572948C4 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		3FA2F04F5817E2F74881912C863974AC /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				E8F91283AAF9F876E6B123AB6A59487D /* Frameworks */,
+			);
+			path = TwitterCore;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -183,6 +232,37 @@
 				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56AFA1FA7BD5F652106D21A3572948C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				632D2AC2A34691A446F13A80D83A63AD /* Info.plist */,
+				8920A260906D912619FB0BEACB1DDFEA /* SVProgressHUD.modulemap */,
+				F4EE6AE10CCC2EBF16F392D2445789D5 /* SVProgressHUD.xcconfig */,
+				42E48EA21461301D69173BF3568EDFEB /* SVProgressHUD-dummy.m */,
+				A6FB760AFC764BD5D6F8A7E5BC6F403B /* SVProgressHUD-prefix.pch */,
+				D96DFAFE2EE8D8BF8D353421DE6D5933 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		6D8153E7E62499C35128E5EE027A1F26 /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				0A60551DF3002CD52751B91CD27999AA /* Frameworks */,
+				397F7461841F934C39C6875125E00FBA /* Resources */,
+			);
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		743F6D8AD5B52773D2B331861CF1E420 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DA579213B7A9316B4468E277E02060E /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7B6F9DCF89FBD3EE8F1D3F887E86178A /* Products */ = {
@@ -200,7 +280,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				3937FE0FF49718A3F281B824A795B16B /* Pods */,
+				C68DBFBE66FBD0233F959322B5D6F2E9 /* Pods */,
 				7B6F9DCF89FBD3EE8F1D3F887E86178A /* Products */,
 				1155909386B45E7F0B673EBEC2F30296 /* Targets Support Files */,
 			);
@@ -215,18 +295,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		BDB72414E912BDC28CD404FEE988B08F /* Support Files */ = {
+		C68DBFBE66FBD0233F959322B5D6F2E9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7E767A35DD4DBB3716F8FDBEA9492BD9 /* Info.plist */,
-				74458A748078D5CE0C8D4A58056656EC /* SVProgressHUD.modulemap */,
-				55721046477D942976DBC484C22E2F04 /* SVProgressHUD.xcconfig */,
-				CEBA0D75FAAFF93A78C0AF16B8C66A9A /* SVProgressHUD-dummy.m */,
-				CA74299A3E9ABDB447A791E69F5DD2B9 /* SVProgressHUD-prefix.pch */,
-				D0F3917145E24BFF0E355C4EE2F3A86B /* SVProgressHUD-umbrella.h */,
+				118904A870AA43EE6FB7D352B3D8AEFA /* Networking */,
+				3F1A4718ADAA9A5189A526CAE39DC77E /* SVProgressHUD */,
+				3FA2F04F5817E2F74881912C863974AC /* TwitterCore */,
+				6D8153E7E62499C35128E5EE027A1F26 /* TwitterKit */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D0D241DB9C67D629E14396EBFD788C16 /* Pods-Tweet */ = {
@@ -247,41 +324,12 @@
 			path = "Target Support Files/Pods-Tweet";
 			sourceTree = "<group>";
 		};
-		D9C567788B56354FEDA8069791D7CA9F /* Networking */ = {
+		E8F91283AAF9F876E6B123AB6A59487D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5BF76A7A2CE7E5AAF5E14F2E2051CB45 /* FormDataPart.swift */,
-				54AD73D27AD52EBDC94B540E4C0E15D5 /* Helpers.swift */,
-				1B80F91B9B29CB73A83B5C8A9BFCE04A /* Image.swift */,
-				99239DD9179D1CC4228F24C31781007C /* JSON.swift */,
-				62F863364039FD93FA1FC9924E01DBB0 /* NetworkActivityIndicator.swift */,
-				FE5DB1484E59634765FE5AA093FB6068 /* Networking.h */,
-				C7D02B078F9DC32983670F2A69401342 /* Networking.swift */,
-				BD475D2285CAC1C8C6E123F1C6C9A756 /* Networking+HTTPRequests.swift */,
-				98FB6A61FC8CE7353F9890082EF6BB83 /* Networking+Private.swift */,
-				81AC9E30F60778864903807181A08D0A /* Response.swift */,
-				1ECA25C81F18576A367D8A25102047C9 /* Result.swift */,
-				57CDCB7B49438477F0FF7A15622EBC01 /* TestCheck.swift */,
-				3C2EAD357B8EE9C342DDAD15C0F6834E /* Support Files */,
+				1C7D5D358B257F311454CDB4E3C9D8D8 /* TwitterCore.framework */,
 			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		E6FBCEFD49848D9E8866B076E3FA067C /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				19DB3263A573D197857336D58D4B35D4 /* SVIndefiniteAnimatedView.h */,
-				22A92F29B2392AAD934762F89B62CE32 /* SVIndefiniteAnimatedView.m */,
-				F6975747A0D10845CD5C4749505AAE3D /* SVProgressAnimatedView.h */,
-				C18454CFCE448EF3DD37B48B4DDB41FB /* SVProgressAnimatedView.m */,
-				18ACFFA3F47BA3CA072BDE669211733B /* SVProgressHUD.h */,
-				FE660AD3209D275940C30391657CC9A2 /* SVProgressHUD.m */,
-				78DAC71DD16FF2F4B2B52E9AC3BC252A /* SVRadialGradientLayer.h */,
-				1EEA0A84F5D311F943841FDA8CE3B09E /* SVRadialGradientLayer.m */,
-				007480ED91F95F88438A2A898BB16C3A /* Resources */,
-				BDB72414E912BDC28CD404FEE988B08F /* Support Files */,
-			);
-			path = SVProgressHUD;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -525,7 +573,7 @@
 		};
 		2BC71332400EC010722BA673AB76D9D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3D82D45370781589AABD390EBB739FB /* Networking.xcconfig */;
+			baseConfigurationReference = 1C4BC8CAA29047A5949706A0E3775991 /* Networking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -559,7 +607,7 @@
 		};
 		5636EA5B3866DA3F46D8BCD53B838A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55721046477D942976DBC484C22E2F04 /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = F4EE6AE10CCC2EBF16F392D2445789D5 /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -630,7 +678,7 @@
 		};
 		658D8CDC9365E69B87639BE265FFD124 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3D82D45370781589AABD390EBB739FB /* Networking.xcconfig */;
+			baseConfigurationReference = 1C4BC8CAA29047A5949706A0E3775991 /* Networking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -721,7 +769,7 @@
 		};
 		96F539A78715C8B9FA777A9EF99A28F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55721046477D942976DBC484C22E2F04 /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = F4EE6AE10CCC2EBF16F392D2445789D5 /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
