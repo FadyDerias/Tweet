@@ -12,5 +12,12 @@ class TWNavigationHelper {
     
     static let sharedInstance = TWNavigationHelper()
     
-    
+    func setRootViewControllerForUserAuthentication() {
+        let appWindow = AppDelegate.getAppDelegate().window
+        let loginViewController = LoginViewController()
+        let rootViewController = UINavigationController(rootViewController: loginViewController)
+        rootViewController.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        rootViewController.navigationBar.shadowImage = UIImage()
+        appWindow?.rootViewController = rootViewController
+    }
 }
