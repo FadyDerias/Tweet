@@ -24,4 +24,3 @@ class LoginViewController: UIViewController {
         print("User Logging in via twitter .. ")
     }
 }
-
