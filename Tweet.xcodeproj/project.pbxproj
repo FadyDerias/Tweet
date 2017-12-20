@@ -11,6 +11,7 @@
 		05A16E7C1FEAE42E004C1F69 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A16E7B1FEAE42E004C1F69 /* LoginViewController.swift */; };
 		05A16E811FEAE42E004C1F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A16E801FEAE42E004C1F69 /* Assets.xcassets */; };
 		05A16E841FEAE42E004C1F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A16E821FEAE42E004C1F69 /* LaunchScreen.storyboard */; };
+		05F7DC8B1FEAE92800971CC3 /* TWNavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC8A1FEAE92800971CC3 /* TWNavigationHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		05A16E801FEAE42E004C1F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05A16E831FEAE42E004C1F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05A16E851FEAE42E004C1F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F7DC8A1FEAE92800971CC3 /* TWNavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWNavigationHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +55,109 @@
 			isa = PBXGroup;
 			children = (
 				05A16E791FEAE42E004C1F69 /* AppDelegate.swift */,
-				05A16E7B1FEAE42E004C1F69 /* LoginViewController.swift */,
+				05A16E8B1FEAE755004C1F69 /* Networking */,
+				05A16E8C1FEAE75B004C1F69 /* UI */,
+				05A16E8E1FEAE76E004C1F69 /* Categories */,
+				05A16E8D1FEAE764004C1F69 /* Supporting Files */,
 				05A16E801FEAE42E004C1F69 /* Assets.xcassets */,
 				05A16E821FEAE42E004C1F69 /* LaunchScreen.storyboard */,
 				05A16E851FEAE42E004C1F69 /* Info.plist */,
 			);
 			path = Tweet;
+			sourceTree = "<group>";
+		};
+		05A16E8B1FEAE755004C1F69 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				05A16E931FEAE7BA004C1F69 /* Models */,
+				05A16E941FEAE7C4004C1F69 /* Managers */,
+				05A16E951FEAE7D4004C1F69 /* Support */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		05A16E8C1FEAE75B004C1F69 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				05A16E8F1FEAE77E004C1F69 /* Views */,
+				05A16E901FEAE783004C1F69 /* View Controllers */,
+				05F7DC891FEAE89500971CC3 /* Support */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		05A16E8D1FEAE764004C1F69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05A16E8E1FEAE76E004C1F69 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		05A16E8F1FEAE77E004C1F69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05A16E901FEAE783004C1F69 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				05A16E911FEAE797004C1F69 /* Authentication */,
+				05A16E921FEAE7A1004C1F69 /* Twitter */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		05A16E911FEAE797004C1F69 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				05A16E7B1FEAE42E004C1F69 /* LoginViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		05A16E921FEAE7A1004C1F69 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		05A16E931FEAE7BA004C1F69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		05A16E941FEAE7C4004C1F69 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		05A16E951FEAE7D4004C1F69 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		05F7DC891FEAE89500971CC3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				05F7DC8A1FEAE92800971CC3 /* TWNavigationHelper.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05A16E7C1FEAE42E004C1F69 /* LoginViewController.swift in Sources */,
+				05F7DC8B1FEAE92800971CC3 /* TWNavigationHelper.swift in Sources */,
 				05A16E7A1FEAE42E004C1F69 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
