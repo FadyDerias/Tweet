@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +21,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //Function that returns the app delegate instance
     class func getAppDelegate() -> AppDelegate {
         return UIApplication.shared.delegate as! AppDelegate
+    }
+    
+    func setupAppearance() {
+        self.window?.backgroundColor = UIColor.white //Modifying window background color
+        //Customizing view of SVProgressHUD
+        SVProgressHUD.setForegroundColor(UIColor.tw_pictonBlue)
+        SVProgressHUD.setBackgroundColor(UIColor.darkGray)
+        SVProgressHUD.setRingThickness(4)
     }
 }
 
