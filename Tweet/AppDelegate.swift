@@ -15,6 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        //Application does not support story boards, and is all programmatic
+        //Setting the window frame
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.makeKeyAndVisible()
+        setupAppearance()
+        TWNavigationHelper.sharedInstance.setRootViewControllerForUserAuthentication()
         return true
     }
     
