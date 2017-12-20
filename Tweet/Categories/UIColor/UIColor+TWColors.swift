@@ -6,4 +6,8 @@
 //  Copyright © 2017 Eventtus. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIColor {
+    static let tw_pictonBlue = UIColor(red:0.28, green:0.63, blue:0.93, alpha:1.00)
+}
