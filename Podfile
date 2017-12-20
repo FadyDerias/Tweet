@@ -6,5 +6,7 @@ target 'Tweet' do
   use_frameworks!
 
   # Pods for Tweet
+pod 'SVProgressHUD'
+
 
 end
