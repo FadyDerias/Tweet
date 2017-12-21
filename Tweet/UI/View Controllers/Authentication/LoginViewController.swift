@@ -20,6 +20,8 @@ class LoginViewController: UIViewController {
     
     @objc func loginUserViaTwitter() {
         print("User Logging in via twitter .. ")
+        TWNavigationHelper.sharedInstance.setRootViewControllerForSuccessfulLogin()
+    }
     
     //MARK:- Support
     
