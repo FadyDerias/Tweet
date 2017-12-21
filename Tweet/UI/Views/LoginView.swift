@@ -34,7 +34,7 @@ class LoginView: UIView {
         self.backgroundColor = UIColor.tw_pictonBlue
         self.addSubview(twitterLogoImageView)
         self.addSubview(signInButton)
-        updateConstraints()
+        setNeedsUpdateConstraints()
     }
     
     required init?(coder aDecoder: NSCoder) {
