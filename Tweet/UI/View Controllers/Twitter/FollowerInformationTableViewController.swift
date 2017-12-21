@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TweetsTableViewController: UITableViewController {
+class FollowerInformationTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
