@@ -8,6 +8,7 @@
 
 import UIKit
 import SVProgressHUD
+import TwitterKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        Twitter.sharedInstance().start(withConsumerKey: TwitterKeys.consumerKey, consumerSecret: TwitterKeys.consumderSecret)
         //Application does not support story boards, and is all programmatic
         //Setting the window frame
         self.window = UIWindow(frame: UIScreen.main.bounds)
@@ -22,6 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setupAppearance()
         TWNavigationHelper.sharedInstance.setRootViewControllerForUserAuthentication()
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        return Twitter.sharedInstance().application(app, open: url, options: options)
     }
     
     //Function that returns the app delegate instance
