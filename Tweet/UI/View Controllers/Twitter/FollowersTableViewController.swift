@@ -46,6 +46,11 @@ class FollowersTableViewController: UITableViewController {
         return 200
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let followerInformationViewController = FollowerInformationTableViewController()
+        self.navigationController?.pushViewController(followerInformationViewController, animated: true)
+    }
+    
     // MARK: - Support
     
     func registerCellsForTableView() {
