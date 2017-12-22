@@ -35,6 +35,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         SVProgressHUD.setForegroundColor(UIColor.tw_pictonBlue)
         SVProgressHUD.setBackgroundColor(UIColor.darkGray)
         SVProgressHUD.setRingThickness(4)
+        
+        //Customization of app's navigation bar
+        UINavigationBar.appearance().tintColor = UIColor.tw_pictonBlue
     }
 }
 
