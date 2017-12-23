@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0508D7A21FEF16AD0005F255 /* TWFollowersHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0508D7A11FEF16AD0005F255 /* TWFollowersHelper.swift */; };
 		05099C8F1FED5E5300EC6EDB /* TWHTTPSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C8E1FED5E5300EC6EDB /* TWHTTPSessionManager.swift */; };
 		05099C911FED5ECA00EC6EDB /* TWNetworkingSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C901FED5ECA00EC6EDB /* TWNetworkingSupport.swift */; };
 		05099C941FED694700EC6EDB /* String+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C931FED694700EC6EDB /* String+Networking.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0508D7A11FEF16AD0005F255 /* TWFollowersHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWFollowersHelper.swift; sourceTree = "<group>"; };
 		05099C8E1FED5E5300EC6EDB /* TWHTTPSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWHTTPSessionManager.swift; sourceTree = "<group>"; };
 		05099C901FED5ECA00EC6EDB /* TWNetworkingSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWNetworkingSupport.swift; sourceTree = "<group>"; };
 		05099C931FED694700EC6EDB /* String+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Networking.swift"; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 			children = (
 				05F7DCA11FED4B5300971CC3 /* TWUsersHelper.swift */,
 				05099C901FED5ECA00EC6EDB /* TWNetworkingSupport.swift */,
+				0508D7A11FEF16AD0005F255 /* TWFollowersHelper.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				05099C911FED5ECA00EC6EDB /* TWNetworkingSupport.swift in Sources */,
 				05F7DC8E1FEAED9E00971CC3 /* UIColor+TWColors.swift in Sources */,
 				05099C941FED694700EC6EDB /* String+Networking.swift in Sources */,
+				0508D7A21FEF16AD0005F255 /* TWFollowersHelper.swift in Sources */,
 				05F7DC941FEBBDCE00971CC3 /* FollowersTableViewController.swift in Sources */,
 				05F7DC901FEAF1FE00971CC3 /* LoginView.swift in Sources */,
 				05F7DC961FEBF2DE00971CC3 /* FollowerInformationTableViewController.swift in Sources */,
