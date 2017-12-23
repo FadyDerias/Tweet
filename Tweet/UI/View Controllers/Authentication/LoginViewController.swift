@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SVProgressHUD
+import TwitterKit
 
 class LoginViewController: UIViewController {
     
@@ -19,8 +19,12 @@ class LoginViewController: UIViewController {
     }
     
     @objc func loginUserViaTwitter() {
-        print("User Logging in via twitter .. ")
-        TWNavigationHelper.sharedInstance.setRootViewControllerForSuccessfulLogin()
+        TWAuthenticationManager.sharedInstance.loginUserForTwitter(viewController: self, { (user) in
+            TWUsersHelper.sharedInstance.saveAuthenticatedUserToUserDefaults(user: user)
+            TWNavigationHelper.sharedInstance.setRootViewControllerForSuccessfulLogin()
+        }) { (error) in
+            //Present Failure Alert Controller
+        }
     }
     
     //MARK:- Support
