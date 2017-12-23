@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05099C8F1FED5E5300EC6EDB /* TWHTTPSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C8E1FED5E5300EC6EDB /* TWHTTPSessionManager.swift */; };
+		05099C911FED5ECA00EC6EDB /* TWNetworkingSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C901FED5ECA00EC6EDB /* TWNetworkingSupport.swift */; };
+		05099C941FED694700EC6EDB /* String+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C931FED694700EC6EDB /* String+Networking.swift */; };
+		05099C971FED856700EC6EDB /* NetworkParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C961FED856700EC6EDB /* NetworkParameter.swift */; };
+		05099C991FED97BB00EC6EDB /* TWTwitterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C981FED97BB00EC6EDB /* TWTwitterManager.swift */; };
 		05A16E7A1FEAE42E004C1F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A16E791FEAE42E004C1F69 /* AppDelegate.swift */; };
 		05A16E7C1FEAE42E004C1F69 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A16E7B1FEAE42E004C1F69 /* LoginViewController.swift */; };
 		05A16E811FEAE42E004C1F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A16E801FEAE42E004C1F69 /* Assets.xcassets */; };
 		05A16E841FEAE42E004C1F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A16E821FEAE42E004C1F69 /* LaunchScreen.storyboard */; };
+		05EEFF7A1FEEB4B200EEFBD8 /* TWFollower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EEFF791FEEB4B200EEFBD8 /* TWFollower.swift */; };
 		05F7DC8B1FEAE92800971CC3 /* TWNavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC8A1FEAE92800971CC3 /* TWNavigationHelper.swift */; };
 		05F7DC8E1FEAED9E00971CC3 /* UIColor+TWColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC8D1FEAED9E00971CC3 /* UIColor+TWColors.swift */; };
 		05F7DC901FEAF1FE00971CC3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC8F1FEAF1FE00971CC3 /* LoginView.swift */; };
@@ -19,16 +25,27 @@
 		05F7DC961FEBF2DE00971CC3 /* FollowerInformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC951FEBF2DE00971CC3 /* FollowerInformationTableViewController.swift */; };
 		05F7DC981FEBF66800971CC3 /* FollowerInformationTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC971FEBF66800971CC3 /* FollowerInformationTableViewHeader.swift */; };
 		05F7DC9A1FED35B700971CC3 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC991FED35B700971CC3 /* TweetTableViewCell.swift */; };
+		05F7DC9C1FED414400971CC3 /* TWConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC9B1FED414400971CC3 /* TWConfiguration.swift */; };
+		05F7DC9E1FED47F400971CC3 /* TWUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC9D1FED47F400971CC3 /* TWUser.swift */; };
+		05F7DCA01FED49D200971CC3 /* TWAuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC9F1FED49D200971CC3 /* TWAuthenticationManager.swift */; };
+		05F7DCA21FED4B5300971CC3 /* TWUsersHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DCA11FED4B5300971CC3 /* TWUsersHelper.swift */; };
 		76DA9D9BE5EB83B83C3A7EED /* Pods_Tweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6689BFDB902F880867DC0545 /* Pods_Tweet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05099C8E1FED5E5300EC6EDB /* TWHTTPSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWHTTPSessionManager.swift; sourceTree = "<group>"; };
+		05099C901FED5ECA00EC6EDB /* TWNetworkingSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWNetworkingSupport.swift; sourceTree = "<group>"; };
+		05099C931FED694700EC6EDB /* String+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Networking.swift"; sourceTree = "<group>"; };
+		05099C951FED6A9600EC6EDB /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		05099C961FED856700EC6EDB /* NetworkParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkParameter.swift; sourceTree = "<group>"; };
+		05099C981FED97BB00EC6EDB /* TWTwitterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWTwitterManager.swift; sourceTree = "<group>"; };
 		05A16E761FEAE42E004C1F69 /* Tweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A16E791FEAE42E004C1F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05A16E7B1FEAE42E004C1F69 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		05A16E801FEAE42E004C1F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05A16E831FEAE42E004C1F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05A16E851FEAE42E004C1F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05EEFF791FEEB4B200EEFBD8 /* TWFollower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWFollower.swift; sourceTree = "<group>"; };
 		05F7DC8A1FEAE92800971CC3 /* TWNavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWNavigationHelper.swift; sourceTree = "<group>"; };
 		05F7DC8D1FEAED9E00971CC3 /* UIColor+TWColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+TWColors.swift"; sourceTree = "<group>"; };
 		05F7DC8F1FEAF1FE00971CC3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -37,6 +54,10 @@
 		05F7DC951FEBF2DE00971CC3 /* FollowerInformationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerInformationTableViewController.swift; sourceTree = "<group>"; };
 		05F7DC971FEBF66800971CC3 /* FollowerInformationTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerInformationTableViewHeader.swift; sourceTree = "<group>"; };
 		05F7DC991FED35B700971CC3 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		05F7DC9B1FED414400971CC3 /* TWConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWConfiguration.swift; sourceTree = "<group>"; };
+		05F7DC9D1FED47F400971CC3 /* TWUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWUser.swift; sourceTree = "<group>"; };
+		05F7DC9F1FED49D200971CC3 /* TWAuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWAuthenticationManager.swift; sourceTree = "<group>"; };
+		05F7DCA11FED4B5300971CC3 /* TWUsersHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWUsersHelper.swift; sourceTree = "<group>"; };
 		21C30954BFACC96C1CC8F3BD /* Pods-Tweet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tweet/Pods-Tweet.debug.xcconfig"; sourceTree = "<group>"; };
 		44814E040A28CF50293A2DA1 /* Pods-Tweet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tweet/Pods-Tweet.release.xcconfig"; sourceTree = "<group>"; };
 		6689BFDB902F880867DC0545 /* Pods_Tweet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05099C921FED693B00EC6EDB /* String */ = {
+			isa = PBXGroup;
+			children = (
+				05099C931FED694700EC6EDB /* String+Networking.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		05A16E6D1FEAE42D004C1F69 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				05A16E791FEAE42E004C1F69 /* AppDelegate.swift */,
+				05099C951FED6A9600EC6EDB /* Header.h */,
 				05A16E8B1FEAE755004C1F69 /* Networking */,
 				05A16E8C1FEAE75B004C1F69 /* UI */,
 				05A16E8E1FEAE76E004C1F69 /* Categories */,
@@ -110,6 +140,7 @@
 		05A16E8D1FEAE764004C1F69 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05F7DC9B1FED414400971CC3 /* TWConfiguration.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +148,7 @@
 		05A16E8E1FEAE76E004C1F69 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				05099C921FED693B00EC6EDB /* String */,
 				05F7DC8C1FEAED8500971CC3 /* UIColor */,
 			);
 			path = Categories;
@@ -162,6 +194,9 @@
 		05A16E931FEAE7BA004C1F69 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				05F7DC9D1FED47F400971CC3 /* TWUser.swift */,
+				05EEFF791FEEB4B200EEFBD8 /* TWFollower.swift */,
+				05099C961FED856700EC6EDB /* NetworkParameter.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -169,6 +204,9 @@
 		05A16E941FEAE7C4004C1F69 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				05099C8E1FED5E5300EC6EDB /* TWHTTPSessionManager.swift */,
+				05F7DC9F1FED49D200971CC3 /* TWAuthenticationManager.swift */,
+				05099C981FED97BB00EC6EDB /* TWTwitterManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -176,6 +214,8 @@
 		05A16E951FEAE7D4004C1F69 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				05F7DCA11FED4B5300971CC3 /* TWUsersHelper.swift */,
+				05099C901FED5ECA00EC6EDB /* TWNetworkingSupport.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -337,14 +377,24 @@
 			files = (
 				05A16E7C1FEAE42E004C1F69 /* LoginViewController.swift in Sources */,
 				05F7DC981FEBF66800971CC3 /* FollowerInformationTableViewHeader.swift in Sources */,
+				05F7DCA01FED49D200971CC3 /* TWAuthenticationManager.swift in Sources */,
+				05F7DCA21FED4B5300971CC3 /* TWUsersHelper.swift in Sources */,
+				05EEFF7A1FEEB4B200EEFBD8 /* TWFollower.swift in Sources */,
 				05F7DC8B1FEAE92800971CC3 /* TWNavigationHelper.swift in Sources */,
 				05F7DC9A1FED35B700971CC3 /* TweetTableViewCell.swift in Sources */,
+				05099C911FED5ECA00EC6EDB /* TWNetworkingSupport.swift in Sources */,
 				05F7DC8E1FEAED9E00971CC3 /* UIColor+TWColors.swift in Sources */,
+				05099C941FED694700EC6EDB /* String+Networking.swift in Sources */,
 				05F7DC941FEBBDCE00971CC3 /* FollowersTableViewController.swift in Sources */,
 				05F7DC901FEAF1FE00971CC3 /* LoginView.swift in Sources */,
 				05F7DC961FEBF2DE00971CC3 /* FollowerInformationTableViewController.swift in Sources */,
+				05F7DC9C1FED414400971CC3 /* TWConfiguration.swift in Sources */,
+				05F7DC9E1FED47F400971CC3 /* TWUser.swift in Sources */,
 				05A16E7A1FEAE42E004C1F69 /* AppDelegate.swift in Sources */,
 				05F7DC921FEBB8C600971CC3 /* FollowerTableViewCell.swift in Sources */,
+				05099C991FED97BB00EC6EDB /* TWTwitterManager.swift in Sources */,
+				05099C971FED856700EC6EDB /* NetworkParameter.swift in Sources */,
+				05099C8F1FED5E5300EC6EDB /* TWHTTPSessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +529,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eventtus.Tweet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Tweet/Header.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -494,6 +545,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eventtus.Tweet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Tweet/Header.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
