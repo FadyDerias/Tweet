@@ -64,6 +64,12 @@ class FollowersTableViewController: UITableViewController {
         self.navigationController?.pushViewController(followerInformationViewController, animated: true)
     }
     
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if ((indexPath as NSIndexPath).row == self.followers.count - 1 && cursor != "0") {
+            self.getUserFollowers()
+        }
+    }
+    
     // MARK: - Support
     
     func registerCellsForTableView() {
