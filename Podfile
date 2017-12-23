@@ -11,5 +11,6 @@ pod 'Networking', '~> 4'
 pod 'TwitterKit'
 pod 'Swifter', :git => 'https://github.com/mattdonnelly/Swifter.git'
 pod ‘ModelMapper’
+pod 'SDWebImage', '~> 4.0'
 
 end

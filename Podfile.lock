@@ -1,6 +1,9 @@
 PODS:
   - ModelMapper (7.3.0)
   - Networking (4.1.1)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
   - SVProgressHUD (2.2.2)
   - Swifter (2.1.0)
   - TwitterCore (3.0.2)
@@ -10,6 +13,7 @@ PODS:
 DEPENDENCIES:
   - ModelMapper
   - Networking (~> 4)
+  - SDWebImage (~> 4.0)
   - SVProgressHUD
   - Swifter (from `https://github.com/mattdonnelly/Swifter.git`)
   - TwitterKit
@@ -26,11 +30,12 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   ModelMapper: b70d373f224fc8cfc4da67b483db163a6cd05fe6
   Networking: ffde5754883907f90f9f751e183eba4a75dc4b89
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
   Swifter: bbf4ebde56c9f8c13e6c7270bf6841a5f29dfda3
   TwitterCore: e0420b01e02e7d20e94690e37f43e75de219ab8d
   TwitterKit: 205ac89824bbfe9e85a16c420d30bb7bcbedac45
 
-PODFILE CHECKSUM: 6b72f6dc97d24395c28b42313c02d2be819ab29b
+PODFILE CHECKSUM: dfd297fe4b565a973800f5ca07c1b26f712d0281
 
 COCOAPODS: 1.2.1
