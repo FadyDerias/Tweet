@@ -1,6 +1,7 @@
 PODS:
   - Networking (4.1.1)
   - SVProgressHUD (2.2.2)
+  - Swifter (2.1.0)
   - TwitterCore (3.0.2)
   - TwitterKit (3.2.1):
     - TwitterCore (>= 3.0.2)
@@ -8,14 +9,25 @@ PODS:
 DEPENDENCIES:
   - Networking (~> 4)
   - SVProgressHUD
+  - Swifter (from `https://github.com/mattdonnelly/Swifter.git`)
   - TwitterKit
+
+EXTERNAL SOURCES:
+  Swifter:
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+CHECKOUT OPTIONS:
+  Swifter:
+    :commit: 457c44b4c492f2a59019ec4f3bcc39b2e6cd3106
+    :git: https://github.com/mattdonnelly/Swifter.git
 
 SPEC CHECKSUMS:
   Networking: ffde5754883907f90f9f751e183eba4a75dc4b89
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  Swifter: bbf4ebde56c9f8c13e6c7270bf6841a5f29dfda3
   TwitterCore: e0420b01e02e7d20e94690e37f43e75de219ab8d
   TwitterKit: 205ac89824bbfe9e85a16c420d30bb7bcbedac45
 
-PODFILE CHECKSUM: 7b0242d4f57d0020e97f9037778c59b94ee3b07b
+PODFILE CHECKSUM: ce3d232598bfe9e54202c0c85ab75509d482d9e4
 
 COCOAPODS: 1.2.1

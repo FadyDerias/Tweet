@@ -9,5 +9,6 @@ target 'Tweet' do
 pod 'SVProgressHUD'
 pod 'Networking', '~> 4'
 pod 'TwitterKit'
+pod 'Swifter', :git => 'https://github.com/mattdonnelly/Swifter.git'
 
 end
