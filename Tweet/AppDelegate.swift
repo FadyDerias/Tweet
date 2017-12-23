@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        Twitter.sharedInstance().start(withConsumerKey: TwitterKeys.consumerKey, consumerSecret: TwitterKeys.consumderSecret)
+        Twitter.sharedInstance().start(withConsumerKey: TwitterKeys.consumerKey, consumerSecret: TwitterKeys.consumerSecret)
         //Application does not support story boards, and is all programmatic
         //Setting the window frame
         self.window = UIWindow(frame: UIScreen.main.bounds)
