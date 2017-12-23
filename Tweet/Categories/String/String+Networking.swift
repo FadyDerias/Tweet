@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Swifter
 
 extension String {
     func hmac(algorithm: HMACAlgorithm, key: String) -> String {
@@ -68,6 +69,20 @@ extension String {
         let allowed = NSMutableCharacterSet.alphanumeric()
         allowed.addCharacters(in: unreserved)
         return self.addingPercentEncoding(withAllowedCharacters: allowed as CharacterSet)
+    }
+    
+    static func convertJsonToArray(json: JSON) -> NSArray? {
+        if let data = json.array!.description.data(using: String.Encoding.utf8) {
+            do {
+                let array = try JSONSerialization.jsonObject(with: data, options: []) as? NSArray
+                return array
+            } catch {
+                print(error.localizedDescription)
+                return nil
+            }
+        }
+        
+        return nil
     }
 }
 
