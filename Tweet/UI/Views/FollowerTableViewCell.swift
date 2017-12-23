@@ -14,7 +14,7 @@ class FollowerTableViewCell: UITableViewCell {
         let imageView = UIImageView()
         imageView.backgroundColor = UIColor.brown
         imageView.contentMode = .scaleAspectFit
-        imageView.layer.cornerRadius = 35
+        imageView.layer.cornerRadius = 25
         imageView.clipsToBounds = true
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
@@ -84,8 +84,8 @@ class FollowerTableViewCell: UITableViewCell {
         NSLayoutConstraint.activate([
             userAvatarImageView.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 16),
             userAvatarImageView.topAnchor.constraint(equalTo: self.contentView.topAnchor, constant: 16),
-            userAvatarImageView.widthAnchor.constraint(equalToConstant: 70),
-            userAvatarImageView.heightAnchor.constraint(equalToConstant: 70),
+            userAvatarImageView.widthAnchor.constraint(equalToConstant: 50),
+            userAvatarImageView.heightAnchor.constraint(equalToConstant: 50),
             
             userNameLabel.centerYAnchor.constraint(equalTo: userAvatarImageView.centerYAnchor, constant: -8),
             userNameLabel.leadingAnchor.constraint(equalTo: userAvatarImageView.trailingAnchor, constant: 8),
