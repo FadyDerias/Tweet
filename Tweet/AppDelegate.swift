@@ -22,8 +22,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.makeKeyAndVisible()
         setupAppearance()
-        TWNavigationHelper.sharedInstance.setRootViewControllerForUserAuthentication()
+        handleUserNavigationAccordingToAuthenticationStatus()
         return true
+    }
+    
+    func handleUserNavigationAccordingToAuthenticationStatus() {
+        if TWUsersHelper.sharedInstance.retrieveUserFromUserDefaults() != nil {
+            TWNavigationHelper.sharedInstance.setRootViewControllerForSuccessfulLogin()
+        } else {
+            TWNavigationHelper.sharedInstance.setRootViewControllerForUserAuthentication()
+        }
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
