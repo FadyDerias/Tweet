@@ -7,14 +7,20 @@
 //
 
 import UIKit
+import SDWebImage
+import SVProgressHUD
 
 let followerTableViewCellIdentifier = "followerTableViewCellIdentifier"
 
 class FollowersTableViewController: UITableViewController {
+    
+    var followers = [TWFollower]()
+    var cursor = "-1"
 
     override func viewDidLoad() {
         super.viewDidLoad()
         registerCellsForTableView()
+        getUserFollowers()
     }
     
     // MARK: - Table view data source
@@ -24,7 +30,7 @@ class FollowersTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return followers.count
     }
     
     override func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
@@ -33,6 +39,13 @@ class FollowersTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: followerTableViewCellIdentifier, for: indexPath) as! FollowerTableViewCell
+        let follower = followers[indexPath.row]
+        cell.userNameLabel.text = follower.name
+        cell.userHandleLabel.text = follower.handle
+        cell.userBioLabel.text = follower.bio
+        let url = URL(string: follower.profileImageUrl)
+        let placeHolderImage = UIImage(named: "userPlaceHolder")
+        cell.userAvatarImageView.sd_setImage(with: url!, placeholderImage: placeHolderImage, options: .highPriority , progress: nil, completed: nil)
         return cell
     }
     
@@ -43,7 +56,7 @@ class FollowersTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 200
+        return 500
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -55,5 +68,21 @@ class FollowersTableViewController: UITableViewController {
     
     func registerCellsForTableView() {
         self.tableView.register(FollowerTableViewCell.self, forCellReuseIdentifier: followerTableViewCellIdentifier)
+    }
+    
+    //MARK: - Networking
+    
+    func getUserFollowers() {
+        SVProgressHUD.show()
+        
+        TWTwitterManager.sharedInstance.getUserFollowers(cursor: cursor, { (followers, nextCursor) in
+            SVProgressHUD.dismiss()
+            self.followers.append(contentsOf: followers)
+            self.cursor = nextCursor
+            self.tableView.reloadData()
+        }) { (error) in
+            SVProgressHUD.dismiss()
+            //Present Default Networking Alert Controller
+        }
     }
 }
