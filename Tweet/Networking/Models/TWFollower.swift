@@ -51,5 +51,33 @@ class TWFollower : NSObject, NSCoding, Mappable {
         try hasBackgroundImage = map.from("profile_use_background_image")
     }
     
+    //MARK: NSCoding
+    
+    //Encoding/Caching user object properties via the keys stored in the NSCodingKeys struct.
+    func encode(with aCoder: NSCoder) {
+        aCoder.encode(name, forKey: PropertyNSCodingKeys.name)
+        aCoder.encode(id, forKey: PropertyNSCodingKeys.id)
+        aCoder.encode(handle, forKey: PropertyNSCodingKeys.handle)
+        aCoder.encode(bio, forKey: PropertyNSCodingKeys.bio)
+        aCoder.encode(profileImageUrl, forKey: PropertyNSCodingKeys.profileImageUrl)
+        aCoder.encode(backgroundImageUrl, forKey: PropertyNSCodingKeys.backgroundImageUrl)
+        aCoder.encode(hasBackgroundImage, forKey: PropertyNSCodingKeys.hasBackgroundImage)
+    }
+    
+    //Decoding user object properties via the the keys stored in the NSCodingKeys struct.
+    required convenience init?(coder aDecoder: NSCoder) {
+        
+        guard let unarchivedName = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.name) as? String,
+            let unarchivedId = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.id) as? String,
+            let unarchivedHandle = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.handle) as? String,
+            let unarchivedBio = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.bio) as? String,
+            let unarchivedProfileImageUrl = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.profileImageUrl) as? String,
+            let unarchivedBackgroundImageUrl = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.backgroundImageUrl) as? String,
+            let unarchivedHasBackgroundImage = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.hasBackgroundImage) as? Bool
+            else {
+                return nil
+        }
+        
+        self.init(name: unarchivedName, id: unarchivedId, handle: unarchivedHandle, bio: unarchivedBio, profileImageUrl: unarchivedProfileImageUrl, backgroundImageUrl: unarchivedBackgroundImageUrl, hasBackgroundImage: unarchivedHasBackgroundImage)
     }
 }
