@@ -15,12 +15,13 @@ let followerTableViewCellIdentifier = "followerTableViewCellIdentifier"
 class FollowersTableViewController: UITableViewController {
     
     var followers = [TWFollower]()
-    var cursor = "-1"
+    var cursor: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setTitleForViewControllerMediumFont(title: "Followers".localized)
         registerCellsForTableView()
+        retrieveFollowersFromCacheDirectory()
         getUserFollowers()
     }
     
@@ -62,6 +63,8 @@ class FollowersTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let followerInformationViewController = FollowerInformationTableViewController()
+        let follower = self.followers[indexPath.row]
+        followerInformationViewController.follower = follower
         self.navigationController?.pushViewController(followerInformationViewController, animated: true)
     }
     
@@ -77,6 +80,26 @@ class FollowersTableViewController: UITableViewController {
         self.tableView.register(FollowerTableViewCell.self, forCellReuseIdentifier: followerTableViewCellIdentifier)
     }
     
+    func retrieveFollowersFromCacheDirectory() {
+        let cachedFollowers = TWFollowersHelper.sharedInstance.retrieveUserFollowersFromDocumentsDirectory()
+        self.followers = cachedFollowers
+        self.tableView.reloadData()
+        
+        if (cachedFollowers.isEmpty) {
+            self.cursor = "-1"
+        } else {
+            retrieveCachedCursor()
+        }
+    }
+    
+    func retrieveCachedCursor() {
+        if let cursor = TWFollowersHelper.sharedInstance.retrieveLastFollowersCursorFromUserDefaults() {
+            self.cursor = cursor
+        } else {
+            self.cursor = "-1"
+        }
+    }
+    
     //MARK: - Networking
     
     func getUserFollowers() {
@@ -86,6 +109,8 @@ class FollowersTableViewController: UITableViewController {
             SVProgressHUD.dismiss()
             self.followers.append(contentsOf: followers)
             self.cursor = nextCursor
+            TWFollowersHelper.sharedInstance.saveUserFollowersToDocumentsDirectory(followers: self.followers)
+            TWFollowersHelper.sharedInstance.saveLastFollowersCursorToUserDefaults(cursor: self.cursor)
             self.tableView.reloadData()
         }) { (error) in
             SVProgressHUD.dismiss()
