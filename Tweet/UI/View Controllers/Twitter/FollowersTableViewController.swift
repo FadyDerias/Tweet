@@ -109,7 +109,12 @@ class FollowersTableViewController: UITableViewController {
             self.tableView.reloadData()
         }) { (error) in
             SVProgressHUD.dismiss()
-            //Present Default Networking Alert Controller
+            
+            let defaultNetworkingController = UIAlertController.defaultNetworkingAlertController({
+                self.getUserFollowers()
+            })
+            
+            self.present(defaultNetworkingController, animated: true, completion: nil)
         }
     }
 }
