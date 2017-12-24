@@ -14,12 +14,12 @@
 		05099C941FED694700EC6EDB /* String+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C931FED694700EC6EDB /* String+Networking.swift */; };
 		05099C971FED856700EC6EDB /* NetworkParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C961FED856700EC6EDB /* NetworkParameter.swift */; };
 		05099C991FED97BB00EC6EDB /* TWTwitterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C981FED97BB00EC6EDB /* TWTwitterManager.swift */; };
-		053EF5D01FEFB2BE00F0EEF1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 053EF5CF1FEFB2BE00F0EEF1 /* README.md */; };
+		053EF5D21FEFB33100F0EEF1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 053EF5D11FEFB33100F0EEF1 /* README.md */; };
 		0563B3B21FEF38700006DF89 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0563B3B41FEF38700006DF89 /* Localizable.strings */; };
 		0563B3B81FEF3AE80006DF89 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563B3B71FEF3AE80006DF89 /* String+Localization.swift */; };
 		0563B3BA1FEF3B320006DF89 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563B3B91FEF3B320006DF89 /* UIViewController.swift */; };
 		0563B3BD1FEF3BF40006DF89 /* UILabel+LanguageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563B3BC1FEF3BF40006DF89 /* UILabel+LanguageSettings.swift */; };
-		0563B3C01FEF3F5C0006DF89 /* UIAlertController+NetworkingErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563B3BF1FEF3F5C0006DF89 /* UIAlertController+NetworkingErrors.swift */; };
+		0563B3C01FEF3F5C0006DF89 /* UIAlertController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563B3BF1FEF3F5C0006DF89 /* UIAlertController+Networking.swift */; };
 		05804E7B1FEF35380077DA8D /* FollowerTableViewCell+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05804E7A1FEF35380077DA8D /* FollowerTableViewCell+Configuration.swift */; };
 		05804E7E1FEF35BC0077DA8D /* TweetTableViewCell+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05804E7D1FEF35BC0077DA8D /* TweetTableViewCell+Configuration.swift */; };
 		05804E801FEF36510077DA8D /* FollowerInformationTableViewHeader+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05804E7F1FEF36510077DA8D /* FollowerInformationTableViewHeader+Configuration.swift */; };
@@ -52,14 +52,14 @@
 		05099C951FED6A9600EC6EDB /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		05099C961FED856700EC6EDB /* NetworkParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkParameter.swift; sourceTree = "<group>"; };
 		05099C981FED97BB00EC6EDB /* TWTwitterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWTwitterManager.swift; sourceTree = "<group>"; };
-		053EF5CF1FEFB2BE00F0EEF1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../Eventtus-TwitterClient/README.md"; sourceTree = "<group>"; };
+		053EF5D11FEFB33100F0EEF1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../Eventtus-TwitterClient/README.md"; sourceTree = "<group>"; };
 		0563B3B31FEF38700006DF89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0563B3B51FEF38A50006DF89 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		0563B3B61FEF38A60006DF89 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0563B3B71FEF3AE80006DF89 /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
 		0563B3B91FEF3B320006DF89 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		0563B3BC1FEF3BF40006DF89 /* UILabel+LanguageSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+LanguageSettings.swift"; sourceTree = "<group>"; };
-		0563B3BF1FEF3F5C0006DF89 /* UIAlertController+NetworkingErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+NetworkingErrors.swift"; sourceTree = "<group>"; };
+		0563B3BF1FEF3F5C0006DF89 /* UIAlertController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Networking.swift"; sourceTree = "<group>"; };
 		05804E7A1FEF35380077DA8D /* FollowerTableViewCell+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FollowerTableViewCell+Configuration.swift"; sourceTree = "<group>"; };
 		05804E7D1FEF35BC0077DA8D /* TweetTableViewCell+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TweetTableViewCell+Configuration.swift"; sourceTree = "<group>"; };
 		05804E7F1FEF36510077DA8D /* FollowerInformationTableViewHeader+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FollowerInformationTableViewHeader+Configuration.swift"; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		0563B3BE1FEF3F4C0006DF89 /* UIAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				0563B3BF1FEF3F5C0006DF89 /* UIAlertController+NetworkingErrors.swift */,
+				0563B3BF1FEF3F5C0006DF89 /* UIAlertController+Networking.swift */,
 			);
 			path = UIAlertController;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 		05A16E8D1FEAE764004C1F69 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				053EF5CF1FEFB2BE00F0EEF1 /* README.md */,
+				053EF5D11FEFB33100F0EEF1 /* README.md */,
 				05F7DC9B1FED414400971CC3 /* TWConfiguration.swift */,
 				0563B3B41FEF38700006DF89 /* Localizable.strings */,
 			);
@@ -377,7 +377,7 @@
 			files = (
 				05A16E841FEAE42E004C1F69 /* LaunchScreen.storyboard in Resources */,
 				0563B3B21FEF38700006DF89 /* Localizable.strings in Resources */,
-				053EF5D01FEFB2BE00F0EEF1 /* README.md in Resources */,
+				053EF5D21FEFB33100F0EEF1 /* README.md in Resources */,
 				05A16E811FEAE42E004C1F69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,7 +455,7 @@
 				05F7DC941FEBBDCE00971CC3 /* FollowersTableViewController.swift in Sources */,
 				05F7DC901FEAF1FE00971CC3 /* LoginView.swift in Sources */,
 				05F7DC961FEBF2DE00971CC3 /* FollowerInformationTableViewController.swift in Sources */,
-				0563B3C01FEF3F5C0006DF89 /* UIAlertController+NetworkingErrors.swift in Sources */,
+				0563B3C01FEF3F5C0006DF89 /* UIAlertController+Networking.swift in Sources */,
 				05F7DC9C1FED414400971CC3 /* TWConfiguration.swift in Sources */,
 				05F7DC9E1FED47F400971CC3 /* TWUser.swift in Sources */,
 				05804E7E1FEF35BC0077DA8D /* TweetTableViewCell+Configuration.swift in Sources */,
