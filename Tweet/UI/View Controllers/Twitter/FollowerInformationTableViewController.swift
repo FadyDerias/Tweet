@@ -7,16 +7,23 @@
 //
 
 import UIKit
+import SDWebImage
+import SVProgressHUD
 
 let followerInformationTableHeaderViewIdentifier = "followerInformationTableHeaderViewIdentifier"
 let tweetTableViewCellIdentifier = "tweetTableViewCellIdentifier"
 
 class FollowerInformationTableViewController: UITableViewController {
+    
+    var tweets = [Tweet]()
+    var follower: TWFollower!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setTitleForViewControllerMediumFont(title: "Information".localized)
         registerCellsForTableView()
         registerHeadersForTableView()
+        getUserTweets()
     }
 
     // MARK: - Table view data source
@@ -26,11 +33,12 @@ class FollowerInformationTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return tweets.count
     }
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: followerInformationTableHeaderViewIdentifier) as! FollowerInformationTableViewHeader
+        headerView.configureForFollower(follower: self.follower)
         return headerView
     }
     
@@ -40,6 +48,8 @@ class FollowerInformationTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: tweetTableViewCellIdentifier, for: indexPath) as! TweetTableViewCell
+        let tweet = tweets[indexPath.row]
+        cell.configureTweetForUser(tweet: tweet, follower: self.follower)
         return cell
     }
     
@@ -65,5 +75,24 @@ class FollowerInformationTableViewController: UITableViewController {
     
     func registerCellsForTableView() {
         self.tableView.register(TweetTableViewCell.self, forCellReuseIdentifier: tweetTableViewCellIdentifier)
+    }
+    
+    // MARK: - Networking
+    
+    func getUserTweets() {
+        SVProgressHUD.show()
+        
+        TWTwitterManager.sharedInstance.getTweetsForUser(userId: follower.id, { (tweets) in
+            SVProgressHUD.dismiss()
+            self.tweets = tweets
+            self.tableView.reloadData()
+        }) { (error) in
+            SVProgressHUD.dismiss()
+            let defaultNetworkingController = UIAlertController.defaultNetworkingAlertController({
+                self.getUserTweets()
+            })
+            
+            self.present(defaultNetworkingController, animated: true, completion: nil)
+        }
     }
 }
