@@ -27,4 +27,15 @@ class TWTwitterManager {
             failure(error)
         }
     }
+    
+    func getTweetsForUser(userId: String, _ success: @escaping (_ tweets: [Tweet]) -> Void, failure: @escaping (_ returnError: Error) -> Void) {
+        swifter.getTimeline(for: userId, count: 10, sinceID: nil, maxID: nil, trimUser: false, contributorDetails: false, includeEntities: false, tweetMode: .extended, success: { (json) in
+            if let jsonArray = String.convertJsonToArray(json: json) {
+                let tweets = Tweet.from(jsonArray)
+                success(tweets!)
+            }
+        }) { (error) in
+            failure(error)
+        }
+    }
 }
