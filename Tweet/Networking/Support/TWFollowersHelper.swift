@@ -13,6 +13,8 @@ class TWFollowersHelper {
     static let sharedInstance = TWFollowersHelper()
     private let userFollowersPath = "user_followers"
     private let documentsDirectory = FileManager().urls(for: .documentDirectory, in: .userDomainMask).first! //Document Directory
+    private let userDefaults = UserDefaults.standard
+    private let lastFollowersCursorKey = "last_cursor"
     
     
     //MARK: - Followers
@@ -38,4 +40,22 @@ class TWFollowersHelper {
         }
     }
     
+    //MARK:- Cursor
+    
+    func saveLastFollowersCursorToUserDefaults(cursor: String) {
+        let encodedCursor = NSKeyedArchiver.archivedData(withRootObject: cursor) //encoding the user object
+        self.userDefaults.set(encodedCursor, forKey: lastFollowersCursorKey) //saving in user defaults
+        self.userDefaults.synchronize() //synchronization
+    }
+    
+    func retrieveLastFollowersCursorFromUserDefaults() -> String? {
+        let decodedObject = userDefaults.object(forKey: lastFollowersCursorKey) as? Data //Retrieving the decoded object
+        
+        if let decodedData = decodedObject {
+            let cursor = NSKeyedUnarchiver.unarchiveObject(with: decodedData) as? String
+            return cursor
+        } else {
+            return nil
+        }
+    }
 }
