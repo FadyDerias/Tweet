@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0508D7A21FEF16AD0005F255 /* TWFollowersHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0508D7A11FEF16AD0005F255 /* TWFollowersHelper.swift */; };
+		0508D7A41FEF27C40005F255 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0508D7A31FEF27C40005F255 /* Tweet.swift */; };
 		05099C8F1FED5E5300EC6EDB /* TWHTTPSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C8E1FED5E5300EC6EDB /* TWHTTPSessionManager.swift */; };
 		05099C911FED5ECA00EC6EDB /* TWNetworkingSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C901FED5ECA00EC6EDB /* TWNetworkingSupport.swift */; };
 		05099C941FED694700EC6EDB /* String+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C931FED694700EC6EDB /* String+Networking.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		0508D7A11FEF16AD0005F255 /* TWFollowersHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWFollowersHelper.swift; sourceTree = "<group>"; };
+		0508D7A31FEF27C40005F255 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		05099C8E1FED5E5300EC6EDB /* TWHTTPSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWHTTPSessionManager.swift; sourceTree = "<group>"; };
 		05099C901FED5ECA00EC6EDB /* TWNetworkingSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWNetworkingSupport.swift; sourceTree = "<group>"; };
 		05099C931FED694700EC6EDB /* String+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Networking.swift"; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				05F7DC9D1FED47F400971CC3 /* TWUser.swift */,
 				05EEFF791FEEB4B200EEFBD8 /* TWFollower.swift */,
 				05099C961FED856700EC6EDB /* NetworkParameter.swift */,
+				0508D7A31FEF27C40005F255 /* Tweet.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				05099C991FED97BB00EC6EDB /* TWTwitterManager.swift in Sources */,
 				05099C971FED856700EC6EDB /* NetworkParameter.swift in Sources */,
 				05099C8F1FED5E5300EC6EDB /* TWHTTPSessionManager.swift in Sources */,
+				0508D7A41FEF27C40005F255 /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
