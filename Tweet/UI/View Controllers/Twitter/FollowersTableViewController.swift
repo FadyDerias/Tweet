@@ -19,6 +19,7 @@ class FollowersTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setTitleForViewControllerMediumFont(title: "Followers".localized)
         registerCellsForTableView()
         getUserFollowers()
     }
