@@ -14,6 +14,14 @@
 		05099C941FED694700EC6EDB /* String+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C931FED694700EC6EDB /* String+Networking.swift */; };
 		05099C971FED856700EC6EDB /* NetworkParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C961FED856700EC6EDB /* NetworkParameter.swift */; };
 		05099C991FED97BB00EC6EDB /* TWTwitterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05099C981FED97BB00EC6EDB /* TWTwitterManager.swift */; };
+		0563B3B21FEF38700006DF89 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0563B3B41FEF38700006DF89 /* Localizable.strings */; };
+		0563B3B81FEF3AE80006DF89 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563B3B71FEF3AE80006DF89 /* String+Localization.swift */; };
+		0563B3BA1FEF3B320006DF89 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563B3B91FEF3B320006DF89 /* UIViewController.swift */; };
+		0563B3BD1FEF3BF40006DF89 /* UILabel+LanguageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563B3BC1FEF3BF40006DF89 /* UILabel+LanguageSettings.swift */; };
+		0563B3C01FEF3F5C0006DF89 /* UIAlertController+NetworkingErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563B3BF1FEF3F5C0006DF89 /* UIAlertController+NetworkingErrors.swift */; };
+		05804E7B1FEF35380077DA8D /* FollowerTableViewCell+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05804E7A1FEF35380077DA8D /* FollowerTableViewCell+Configuration.swift */; };
+		05804E7E1FEF35BC0077DA8D /* TweetTableViewCell+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05804E7D1FEF35BC0077DA8D /* TweetTableViewCell+Configuration.swift */; };
+		05804E801FEF36510077DA8D /* FollowerInformationTableViewHeader+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05804E7F1FEF36510077DA8D /* FollowerInformationTableViewHeader+Configuration.swift */; };
 		05A16E7A1FEAE42E004C1F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A16E791FEAE42E004C1F69 /* AppDelegate.swift */; };
 		05A16E7C1FEAE42E004C1F69 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A16E7B1FEAE42E004C1F69 /* LoginViewController.swift */; };
 		05A16E811FEAE42E004C1F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A16E801FEAE42E004C1F69 /* Assets.xcassets */; };
@@ -43,6 +51,16 @@
 		05099C951FED6A9600EC6EDB /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		05099C961FED856700EC6EDB /* NetworkParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkParameter.swift; sourceTree = "<group>"; };
 		05099C981FED97BB00EC6EDB /* TWTwitterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWTwitterManager.swift; sourceTree = "<group>"; };
+		0563B3B31FEF38700006DF89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0563B3B51FEF38A50006DF89 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0563B3B61FEF38A60006DF89 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0563B3B71FEF3AE80006DF89 /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
+		0563B3B91FEF3B320006DF89 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		0563B3BC1FEF3BF40006DF89 /* UILabel+LanguageSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+LanguageSettings.swift"; sourceTree = "<group>"; };
+		0563B3BF1FEF3F5C0006DF89 /* UIAlertController+NetworkingErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+NetworkingErrors.swift"; sourceTree = "<group>"; };
+		05804E7A1FEF35380077DA8D /* FollowerTableViewCell+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FollowerTableViewCell+Configuration.swift"; sourceTree = "<group>"; };
+		05804E7D1FEF35BC0077DA8D /* TweetTableViewCell+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TweetTableViewCell+Configuration.swift"; sourceTree = "<group>"; };
+		05804E7F1FEF36510077DA8D /* FollowerInformationTableViewHeader+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FollowerInformationTableViewHeader+Configuration.swift"; sourceTree = "<group>"; };
 		05A16E761FEAE42E004C1F69 /* Tweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A16E791FEAE42E004C1F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05A16E7B1FEAE42E004C1F69 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -83,8 +101,35 @@
 			isa = PBXGroup;
 			children = (
 				05099C931FED694700EC6EDB /* String+Networking.swift */,
+				0563B3B71FEF3AE80006DF89 /* String+Localization.swift */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		0563B3BB1FEF3BE60006DF89 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				0563B3BC1FEF3BF40006DF89 /* UILabel+LanguageSettings.swift */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		0563B3BE1FEF3F4C0006DF89 /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				0563B3BF1FEF3F5C0006DF89 /* UIAlertController+NetworkingErrors.swift */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
+		05804E7C1FEF35A00077DA8D /* Views Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				05804E7D1FEF35BC0077DA8D /* TweetTableViewCell+Configuration.swift */,
+				05804E7F1FEF36510077DA8D /* FollowerInformationTableViewHeader+Configuration.swift */,
+				05804E7A1FEF35380077DA8D /* FollowerTableViewCell+Configuration.swift */,
+			);
+			path = "Views Configurations";
 			sourceTree = "<group>";
 		};
 		05A16E6D1FEAE42D004C1F69 = {
@@ -135,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				05A16E8F1FEAE77E004C1F69 /* Views */,
+				05804E7C1FEF35A00077DA8D /* Views Configurations */,
 				05A16E901FEAE783004C1F69 /* View Controllers */,
 				05F7DC891FEAE89500971CC3 /* Support */,
 			);
@@ -145,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				05F7DC9B1FED414400971CC3 /* TWConfiguration.swift */,
+				0563B3B41FEF38700006DF89 /* Localizable.strings */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,8 +199,11 @@
 		05A16E8E1FEAE76E004C1F69 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				0563B3BE1FEF3F4C0006DF89 /* UIAlertController */,
+				0563B3BB1FEF3BE60006DF89 /* UILabel */,
 				05099C921FED693B00EC6EDB /* String */,
 				05F7DC8C1FEAED8500971CC3 /* UIColor */,
+				0563B3B91FEF3B320006DF89 /* UIViewController.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -198,9 +248,9 @@
 		05A16E931FEAE7BA004C1F69 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				05099C961FED856700EC6EDB /* NetworkParameter.swift */,
 				05F7DC9D1FED47F400971CC3 /* TWUser.swift */,
 				05EEFF791FEEB4B200EEFBD8 /* TWFollower.swift */,
-				05099C961FED856700EC6EDB /* NetworkParameter.swift */,
 				0508D7A31FEF27C40005F255 /* Tweet.swift */,
 			);
 			path = Models;
@@ -305,6 +355,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 05A16E6D1FEAE42D004C1F69;
 			productRefGroup = 05A16E771FEAE42E004C1F69 /* Products */;
@@ -322,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05A16E841FEAE42E004C1F69 /* LaunchScreen.storyboard in Resources */,
+				0563B3B21FEF38700006DF89 /* Localizable.strings in Resources */,
 				05A16E811FEAE42E004C1F69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +434,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				05A16E7C1FEAE42E004C1F69 /* LoginViewController.swift in Sources */,
+				0563B3B81FEF3AE80006DF89 /* String+Localization.swift in Sources */,
+				0563B3BA1FEF3B320006DF89 /* UIViewController.swift in Sources */,
+				05804E801FEF36510077DA8D /* FollowerInformationTableViewHeader+Configuration.swift in Sources */,
 				05F7DC981FEBF66800971CC3 /* FollowerInformationTableViewHeader.swift in Sources */,
 				05F7DCA01FED49D200971CC3 /* TWAuthenticationManager.swift in Sources */,
 				05F7DCA21FED4B5300971CC3 /* TWUsersHelper.swift in Sources */,
@@ -389,17 +444,21 @@
 				05F7DC8B1FEAE92800971CC3 /* TWNavigationHelper.swift in Sources */,
 				05F7DC9A1FED35B700971CC3 /* TweetTableViewCell.swift in Sources */,
 				05099C911FED5ECA00EC6EDB /* TWNetworkingSupport.swift in Sources */,
+				0563B3BD1FEF3BF40006DF89 /* UILabel+LanguageSettings.swift in Sources */,
 				05F7DC8E1FEAED9E00971CC3 /* UIColor+TWColors.swift in Sources */,
 				05099C941FED694700EC6EDB /* String+Networking.swift in Sources */,
 				0508D7A21FEF16AD0005F255 /* TWFollowersHelper.swift in Sources */,
 				05F7DC941FEBBDCE00971CC3 /* FollowersTableViewController.swift in Sources */,
 				05F7DC901FEAF1FE00971CC3 /* LoginView.swift in Sources */,
 				05F7DC961FEBF2DE00971CC3 /* FollowerInformationTableViewController.swift in Sources */,
+				0563B3C01FEF3F5C0006DF89 /* UIAlertController+NetworkingErrors.swift in Sources */,
 				05F7DC9C1FED414400971CC3 /* TWConfiguration.swift in Sources */,
 				05F7DC9E1FED47F400971CC3 /* TWUser.swift in Sources */,
+				05804E7E1FEF35BC0077DA8D /* TweetTableViewCell+Configuration.swift in Sources */,
 				05A16E7A1FEAE42E004C1F69 /* AppDelegate.swift in Sources */,
 				05F7DC921FEBB8C600971CC3 /* FollowerTableViewCell.swift in Sources */,
 				05099C991FED97BB00EC6EDB /* TWTwitterManager.swift in Sources */,
+				05804E7B1FEF35380077DA8D /* FollowerTableViewCell+Configuration.swift in Sources */,
 				05099C971FED856700EC6EDB /* NetworkParameter.swift in Sources */,
 				05099C8F1FED5E5300EC6EDB /* TWHTTPSessionManager.swift in Sources */,
 				0508D7A41FEF27C40005F255 /* Tweet.swift in Sources */,
@@ -409,10 +468,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0563B3B41FEF38700006DF89 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0563B3B31FEF38700006DF89 /* en */,
+				0563B3B61FEF38A60006DF89 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		05A16E821FEAE42E004C1F69 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				05A16E831FEAE42E004C1F69 /* Base */,
+				0563B3B51FEF38A50006DF89 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -424,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -481,6 +551,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
