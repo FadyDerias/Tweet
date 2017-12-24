@@ -12,7 +12,6 @@ class FollowerTableViewCell: UITableViewCell {
     
     lazy var userAvatarImageView : UIImageView = {
         let imageView = UIImageView()
-        imageView.backgroundColor = UIColor.brown
         imageView.contentMode = .scaleAspectFit
         imageView.layer.cornerRadius = 25
         imageView.clipsToBounds = true
@@ -81,16 +80,19 @@ class FollowerTableViewCell: UITableViewCell {
     override func updateConstraints() {
         super.updateConstraints()
         
+        let avatarImageViewHeightConstraint = userAvatarImageView.heightAnchor.constraint(equalToConstant: 50)
+        avatarImageViewHeightConstraint.priority = UILayoutPriority.defaultHigh
+        
         NSLayoutConstraint.activate([
-            userAvatarImageView.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 16),
-            userAvatarImageView.topAnchor.constraint(equalTo: self.contentView.topAnchor, constant: 16),
+            userAvatarImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
+            userAvatarImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 16),
             userAvatarImageView.widthAnchor.constraint(equalToConstant: 50),
-            userAvatarImageView.heightAnchor.constraint(equalToConstant: 50),
+            avatarImageViewHeightConstraint,
             
             userNameLabel.centerYAnchor.constraint(equalTo: userAvatarImageView.centerYAnchor, constant: -8),
             userNameLabel.leadingAnchor.constraint(equalTo: userAvatarImageView.trailingAnchor, constant: 8),
             userNameLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: -16),
-            
+
             userHandleLabel.topAnchor.constraint(equalTo: userNameLabel.bottomAnchor),
             userHandleLabel.leadingAnchor.constraint(equalTo: userNameLabel.leadingAnchor),
             userHandleLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: -16),
