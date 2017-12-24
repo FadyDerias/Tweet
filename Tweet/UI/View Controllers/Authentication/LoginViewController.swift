@@ -8,6 +8,7 @@
 
 import UIKit
 import TwitterKit
+import SVProgressHUD
 
 class LoginViewController: UIViewController {
     
@@ -23,7 +24,13 @@ class LoginViewController: UIViewController {
             TWUsersHelper.sharedInstance.saveAuthenticatedUserToUserDefaults(user: user)
             TWNavigationHelper.sharedInstance.setRootViewControllerForSuccessfulLogin()
         }) { (error) in
-            //Present Failure Alert Controller
+            SVProgressHUD.dismiss()
+            
+            let defaultNetworkingController = UIAlertController.defaultNetworkingAlertController({
+                self.loginUserViaTwitter()
+            })
+            
+            self.present(defaultNetworkingController, animated: true, completion: nil)
         }
     }
     
