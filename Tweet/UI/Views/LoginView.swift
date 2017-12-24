@@ -19,7 +19,7 @@ class LoginView: UIView {
     
     lazy var signInButton: UIButton = {
         let button = UIButton()
-        button.setTitle("Sign In", for: .normal)
+        button.setTitle("Sign In".localized, for: .normal)
         button.setTitleColor(UIColor.tw_pictonBlue, for: .normal)
         button.backgroundColor = UIColor.white
         button.titleLabel?.textAlignment = .center
