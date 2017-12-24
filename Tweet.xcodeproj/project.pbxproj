@@ -40,7 +40,7 @@
 		05F7DC9E1FED47F400971CC3 /* TWUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC9D1FED47F400971CC3 /* TWUser.swift */; };
 		05F7DCA01FED49D200971CC3 /* TWAuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DC9F1FED49D200971CC3 /* TWAuthenticationManager.swift */; };
 		05F7DCA21FED4B5300971CC3 /* TWUsersHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7DCA11FED4B5300971CC3 /* TWUsersHelper.swift */; };
-		76DA9D9BE5EB83B83C3A7EED /* Pods_Tweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6689BFDB902F880867DC0545 /* Pods_Tweet.framework */; };
+		337FA70DCC53599F7718DAA8 /* Pods_Tweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71542D668ECF48631DE4B650 /* Pods_Tweet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,9 +82,9 @@
 		05F7DC9D1FED47F400971CC3 /* TWUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWUser.swift; sourceTree = "<group>"; };
 		05F7DC9F1FED49D200971CC3 /* TWAuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWAuthenticationManager.swift; sourceTree = "<group>"; };
 		05F7DCA11FED4B5300971CC3 /* TWUsersHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWUsersHelper.swift; sourceTree = "<group>"; };
-		21C30954BFACC96C1CC8F3BD /* Pods-Tweet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tweet/Pods-Tweet.debug.xcconfig"; sourceTree = "<group>"; };
-		44814E040A28CF50293A2DA1 /* Pods-Tweet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tweet/Pods-Tweet.release.xcconfig"; sourceTree = "<group>"; };
-		6689BFDB902F880867DC0545 /* Pods_Tweet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71542D668ECF48631DE4B650 /* Pods_Tweet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F652975153CFFB29ECA44D1 /* Pods-Tweet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tweet/Pods-Tweet.debug.xcconfig"; sourceTree = "<group>"; };
+		B6DB51CFBB91DA0FC8C6AEAA /* Pods-Tweet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tweet/Pods-Tweet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76DA9D9BE5EB83B83C3A7EED /* Pods_Tweet.framework in Frameworks */,
+				337FA70DCC53599F7718DAA8 /* Pods_Tweet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +139,8 @@
 			children = (
 				05A16E781FEAE42E004C1F69 /* Tweet */,
 				05A16E771FEAE42E004C1F69 /* Products */,
-				FFDE7743AC16D96F33A37213 /* Pods */,
-				5EE0C686ED88090E9B3B5C12 /* Frameworks */,
+				2626DA6650AB92534053249A /* Pods */,
+				3015DE180E31B91EDBAD088B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -295,21 +295,21 @@
 			path = UIColor;
 			sourceTree = "<group>";
 		};
-		5EE0C686ED88090E9B3B5C12 /* Frameworks */ = {
+		2626DA6650AB92534053249A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6689BFDB902F880867DC0545 /* Pods_Tweet.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FFDE7743AC16D96F33A37213 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				21C30954BFACC96C1CC8F3BD /* Pods-Tweet.debug.xcconfig */,
-				44814E040A28CF50293A2DA1 /* Pods-Tweet.release.xcconfig */,
+				9F652975153CFFB29ECA44D1 /* Pods-Tweet.debug.xcconfig */,
+				B6DB51CFBB91DA0FC8C6AEAA /* Pods-Tweet.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		3015DE180E31B91EDBAD088B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71542D668ECF48631DE4B650 /* Pods_Tweet.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,12 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05A16E881FEAE42E004C1F69 /* Build configuration list for PBXNativeTarget "Tweet" */;
 			buildPhases = (
-				50CE4A9D3A0018BAAD729AAA /* [CP] Check Pods Manifest.lock */,
+				23DEC26FA8780B4FFC06ACEA /* [CP] Check Pods Manifest.lock */,
 				05A16E721FEAE42E004C1F69 /* Sources */,
 				05A16E731FEAE42E004C1F69 /* Frameworks */,
 				05A16E741FEAE42E004C1F69 /* Resources */,
-				77EA7A8540196CF4687104EF /* [CP] Embed Pods Frameworks */,
-				1E340AD68EC9A98DABA54682 /* [CP] Copy Pods Resources */,
+				18D690ED50E29BF98C0DD4EF /* [CP] Embed Pods Frameworks */,
+				E5CC029D6A13880B2737CFB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -385,22 +385,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E340AD68EC9A98DABA54682 /* [CP] Copy Pods Resources */ = {
+		18D690ED50E29BF98C0DD4EF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tweet/Pods-Tweet-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tweet/Pods-Tweet-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		50CE4A9D3A0018BAAD729AAA /* [CP] Check Pods Manifest.lock */ = {
+		23DEC26FA8780B4FFC06ACEA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -415,19 +415,19 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		77EA7A8540196CF4687104EF /* [CP] Embed Pods Frameworks */ = {
+		E5CC029D6A13880B2737CFB9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tweet/Pods-Tweet-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tweet/Pods-Tweet-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -604,7 +604,7 @@
 		};
 		05A16E891FEAE42E004C1F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21C30954BFACC96C1CC8F3BD /* Pods-Tweet.debug.xcconfig */;
+			baseConfigurationReference = 9F652975153CFFB29ECA44D1 /* Pods-Tweet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -620,7 +620,7 @@
 		};
 		05A16E8A1FEAE42E004C1F69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44814E040A28CF50293A2DA1 /* Pods-Tweet.release.xcconfig */;
+			baseConfigurationReference = B6DB51CFBB91DA0FC8C6AEAA /* Pods-Tweet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
