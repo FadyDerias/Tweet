@@ -27,7 +27,7 @@ class FollowerTableViewCell: UITableViewCell {
         label.minimumScaleFactor = 0.5
         label.adjustsFontSizeToFitWidth = true
         label.font = UIFont.boldSystemFont(ofSize: 20)
-        label.text = "Fady Derias"
+        label.decideTextAlignment()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -40,7 +40,7 @@ class FollowerTableViewCell: UITableViewCell {
         label.adjustsFontSizeToFitWidth = true
         label.font = label.font.withSize(15)
         label.textColor = UIColor.lightGray
-        label.text = "@fadyDerias"
+        label.decideTextAlignment()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -53,7 +53,7 @@ class FollowerTableViewCell: UITableViewCell {
         label.minimumScaleFactor = 0.5
         label.adjustsFontSizeToFitWidth = true
         label.font = label.font.withSize(15)
-        label.text = "your bio is usually the first thing people see when deciding whether to follow you on Twitter. You're judged by what you write in your Twitter bio. And you only have about 160 characters to tell them everything they need to know."
+        label.decideTextAlignment()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
