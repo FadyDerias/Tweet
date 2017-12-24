@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import Mapper
+
+class Tweet: NSObject, Mappable  {
+    
+    var fullText: String
+    
+    //JSON Parsing via Mapper POD
+    required init(map: Mapper) throws {
+        try fullText = map.from("full_text")
+    }
+}
