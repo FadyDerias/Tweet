@@ -42,12 +42,7 @@ class FollowersTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: followerTableViewCellIdentifier, for: indexPath) as! FollowerTableViewCell
         let follower = followers[indexPath.row]
-        cell.userNameLabel.text = follower.name
-        cell.userHandleLabel.text = follower.handle
-        cell.userBioLabel.text = follower.bio
-        let url = URL(string: follower.profileImageUrl)
-        let placeHolderImage = UIImage(named: "userPlaceHolder")
-        cell.userAvatarImageView.sd_setImage(with: url!, placeholderImage: placeHolderImage, options: .highPriority , progress: nil, completed: nil)
+        cell.configureForFollower(follower: follower)
         return cell
     }
     
