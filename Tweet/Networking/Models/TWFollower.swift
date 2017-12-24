@@ -47,7 +47,7 @@ class TWFollower : NSObject, NSCoding, Mappable {
         try handle = map.from("screen_name")
         try bio = map.from("description")
         try profileImageUrl = map.from("profile_image_url_https")
-        try backgroundImageUrl = map.from("profile_background_image_url_https")
+        try backgroundImageUrl = map.from("profile_banner_url")
         try hasBackgroundImage = map.from("profile_use_background_image")
     }
     
