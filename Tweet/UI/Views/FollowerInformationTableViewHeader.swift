@@ -12,15 +12,14 @@ class FollowerInformationTableViewHeader: UITableViewHeaderFooterView {
     
     lazy var userBackgroundImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.backgroundColor = UIColor.cyan
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleAspectFill
+        imageView.clipsToBounds = true
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
     
     lazy var userProfileImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.backgroundColor = UIColor.brown
         imageView.contentMode = .scaleAspectFit
         imageView.layer.cornerRadius = 50
         imageView.clipsToBounds = true
@@ -35,7 +34,7 @@ class FollowerInformationTableViewHeader: UITableViewHeaderFooterView {
         label.minimumScaleFactor = 0.5
         label.adjustsFontSizeToFitWidth = true
         label.font = UIFont.boldSystemFont(ofSize: 20)
-        label.text = "Fady Derias"
+        label.decideTextAlignment()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -48,7 +47,7 @@ class FollowerInformationTableViewHeader: UITableViewHeaderFooterView {
         label.adjustsFontSizeToFitWidth = true
         label.font = label.font.withSize(15)
         label.textColor = UIColor.lightGray
-        label.text = "@fadyDerias"
+        label.decideTextAlignment()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
