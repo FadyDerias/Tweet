@@ -88,7 +88,7 @@ class FollowerInformationTableViewController: UITableViewController {
             self.tableView.reloadData()
         }) { (error) in
             SVProgressHUD.dismiss()
-            let defaultNetworkingController = UIAlertController.defaultNetworkingAlertController({
+            let defaultNetworkingController = UIAlertController.defaultNetworkingErrorAlertController({
                 self.getUserTweets()
             })
             

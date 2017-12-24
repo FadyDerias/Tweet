@@ -26,7 +26,7 @@ class LoginViewController: UIViewController {
         }) { (error) in
             SVProgressHUD.dismiss()
             
-            let defaultNetworkingController = UIAlertController.defaultNetworkingAlertController({
+            let defaultNetworkingController = UIAlertController.defaultNetworkingErrorAlertController({
                 self.loginUserViaTwitter()
             })
             
