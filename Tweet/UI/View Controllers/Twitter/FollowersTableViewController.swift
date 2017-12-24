@@ -20,6 +20,7 @@ class FollowersTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setTitleForViewControllerMediumFont(title: "Followers".localized)
+        setupNavigationBarButtons()
         registerCellsForTableView()
         retrieveFollowersFromCacheDirectory()
         getUserFollowers()
@@ -73,6 +74,21 @@ class FollowersTableViewController: UITableViewController {
     
     func registerCellsForTableView() {
         self.tableView.register(FollowerTableViewCell.self, forCellReuseIdentifier: followerTableViewCellIdentifier)
+    }
+    
+    func setupNavigationBarButtons () {
+        let logoutImage = UIImage(named: "logout")
+        let logoutRightBarButtonItem = UIBarButtonItem(image: logoutImage, style: .plain, target: self, action: #selector(logoutButtonTapped))
+        self.navigationItem.rightBarButtonItems = [logoutRightBarButtonItem]
+    }
+    
+    @objc func logoutButtonTapped() {
+        let logoutAlertController = UIAlertController.confirmLogoutAlertController {
+            TWAuthenticationManager.sharedInstance.logoutUser()
+            TWNavigationHelper.sharedInstance.setRootViewControllerForUserAuthentication()
+        }
+        
+        self.present(logoutAlertController, animated: true, completion: nil)
     }
     
     func retrieveFollowersFromCacheDirectory() {
