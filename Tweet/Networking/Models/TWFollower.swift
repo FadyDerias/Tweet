@@ -72,11 +72,12 @@ class TWFollower : NSObject, NSCoding, Mappable {
             let unarchivedHandle = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.handle) as? String,
             let unarchivedBio = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.bio) as? String,
             let unarchivedProfileImageUrl = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.profileImageUrl) as? String,
-            let unarchivedBackgroundImageUrl = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.backgroundImageUrl) as? String,
-            let unarchivedHasBackgroundImage = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.hasBackgroundImage) as? Bool
+            let unarchivedBackgroundImageUrl = aDecoder.decodeObject(forKey: PropertyNSCodingKeys.backgroundImageUrl) as? String
             else {
                 return nil
         }
+        
+        let unarchivedHasBackgroundImage = aDecoder.decodeBool(forKey: PropertyNSCodingKeys.hasBackgroundImage)
         
         self.init(name: unarchivedName, id: unarchivedId, handle: unarchivedHandle, bio: unarchivedBio, profileImageUrl: unarchivedProfileImageUrl, backgroundImageUrl: unarchivedBackgroundImageUrl, hasBackgroundImage: unarchivedHasBackgroundImage)
     }
