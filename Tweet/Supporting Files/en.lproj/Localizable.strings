@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  Tweet
+
+  Created by Fady on 12/24/17.
+  Copyright © 2017 Eventtus. All rights reserved.
+*/
+
+"Sign In" = "Sign In";
+
+"Followers" = "Followers";
+
+"Information" = "Information";
+
+"Alert" = "Alert";
+
+"Ok" = "Ok";
+
+"Cancel" = "Cancel";
+
+"Retry" = "Retry";
+
+"Networking Error" = "Networking Error";
+
+"No internet connection, would you like to try again?" = "No internet connection, would you like to try again?";
