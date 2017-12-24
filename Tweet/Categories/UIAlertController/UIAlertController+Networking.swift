@@ -25,4 +25,20 @@ extension UIAlertController {
         
         return alertController
     }
+    
+    static func confirmLogoutAlertController(_ yesHandler: @escaping (() -> Void)) -> UIAlertController {
+        let alertController = UIAlertController(title: "Alert".localized,
+                                                message: "Are you sure you wanted to logout?".localized,
+                                                preferredStyle: .alert)
+        let noAction = UIAlertAction(title: "No".localized, style: .cancel, handler: nil)
+        alertController.addAction(noAction)
+        
+        let yesAction = UIAlertAction(title: "Yes".localized, style: .default) { (alertController) in
+            yesHandler()
+        }
+        
+        alertController.addAction(yesAction)
+        
+        return alertController
+    }
 }
